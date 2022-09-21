@@ -1,0 +1,91 @@
+:root{
+    --white-color:#FFF;
+    --blue-color:#00ADEF;
+    --blues-color:#0098D2;
+    --navy-blue-color:#0069AA;
+    --num-coler:#cdcdcd;
+}
+
+body{
+    font-family: Nunito;
+    line-height: inherit;
+    margin: 0;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.dis_flex{
+    display: flex;
+}
+
+.algin_center{
+    align-items: center;
+}
+
+.box{
+    box-sizing: border-box;
+    border: none;
+    background-color: transparent;
+}
+
+.text{
+    color: #FFF;
+    font-size: 100%;
+    font-size: 0.86rem;
+    line-height: 1.25rem;
+}
+
+.text-tran{
+    text-transform: uppercase;
+}
+
+.grid{
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.grid__full-w{
+    width: 100%;
+}
+
+.grid__row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -12px;
+    margin-right: -12px;
+}
+
+.grid__column-2{
+    padding-left: 12px;
+    padding-right: 12px;
+    width: 16.66%;
+}
+
+.grid__column-4{
+    padding-left: 12px;
+    padding-right: 12px;
+    width: 25%;
+}
+
+.grid__column-8{
+    padding-left: 12px;
+    padding-right: 12px;
+    width: 75%;
+}
+
+.grid__column-2-4{
+    padding-left: 6px;
+    padding-right: 6px;
+    width: 20%;
+}
+
+.grid__column-10{
+    padding-left: 12px;
+    padding-right: 12px;
+    width: 83.34%;   
+}
