@@ -26,6 +26,10 @@ body{
     align-items: center;
 }
 
+.w-full{
+    width: 100%;
+}
+
 .box{
     box-sizing: border-box;
     border: none;
@@ -38,6 +42,12 @@ body{
     font-size: 0.86rem;
     line-height: 1.25rem;
 }
+
+.text-nm{
+    font-size: 0.86rem;
+    line-height: 1.25rem;
+}
+
 
 .text-tran{
     text-transform: uppercase;
@@ -60,6 +70,10 @@ body{
     margin-right: -12px;
 }
 
+.grid__app{
+    padding-top: 30px;
+}
+
 .grid__column-2{
     padding-left: 12px;
     padding-right: 12px;
@@ -68,13 +82,15 @@ body{
 
 .grid__column-4{
     padding-left: 12px;
-    padding-right: 12px;
+    padding-right: 6px;
     width: 25%;
 }
 
+
+
 .grid__column-8{
-    padding-left: 12px;
-    padding-right: 12px;
+    padding-left: 6px;
+    padding-right: 1rem;
     width: 75%;
 }
 
@@ -92,4 +108,13 @@ body{
 
 .list{
     font-weight: 600;
+}
+
+.pad-1{
+    padding: 1rem;
+}
+
+.pad-1-lr{
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
