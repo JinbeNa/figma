@@ -22,6 +22,10 @@ body{
     display: flex;
 }
 
+.pos-rela{
+    position: relative;
+}
+
 .algin_center{
     align-items: center;
 }
@@ -34,6 +38,11 @@ body{
     box-sizing: border-box;
     border: none;
     background-color: transparent;
+}
+
+.img{
+    height: auto;
+    max-width: 100%;
 }
 
 .text{
@@ -92,6 +101,10 @@ body{
     padding-left: 6px;
     padding-right: 1rem;
     width: 75%;
+}
+
+.grid-clos-6{
+    grid-template-columns: repeat(6,minmax(0,1fr));
 }
 
 .grid__column-2-4{

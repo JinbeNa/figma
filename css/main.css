@@ -223,4 +223,79 @@
     padding-top: 1.75rem;
     padding-bottom: 1rem;
 }
-    
+
+.new-products__table__body{
+    margin-bottom: 4rem;
+    display: grid;
+    border-bottom: 1px  solid;
+    border-right: 1px solid ;
+    border-color: rgb(231, 229, 229);
+}
+
+.table__body__link{
+    border-top: 1px solid #eaeaea;
+    border-left: 1px solid #eaeaea;
+    color: inherit;
+    text-decoration: none;
+}
+
+.table__body__box{
+    text-align: center;
+    padding-bottom: 2.5rem;
+    border-radius: 0.75rem;
+}
+
+.body__box__img{
+    justify-content: center;
+}
+
+.table__img{
+    max-height: 16rem;
+}
+
+.body__box__text{
+    font-weight: 600;
+    padding-top: 0.375rem;
+    margin: 0;
+}
+
+.body__box__price{
+    color: #00adef;
+    line-height: 1.5rem;
+    font-size: 1.125rem;
+    padding-top: 0.25rem;
+    margin: 0;
+}
+
+.new-products__table__btn__link{
+    color: inherit;
+    text-decoration: inherit;
+}
+
+.new-products__table__btn{
+    justify-content: center;
+}
+
+.btn{
+    background-color: #0069aa;
+    line-height: 1.75rem;
+    font-size: 1.125rem;
+    padding-left: 3rem;
+    padding-right: 1.5rem;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    border-radius: 9999px;
+    color: #fff;
+    align-items: center;
+    cursor: pointer;
+    border: 0;
+}
+
+.btn__icon{
+    padding-left: 1rem;
+}
+/* News */
+.news{
+    background-color: #edf4f7;
+    margin-top: 4rem;
+}
