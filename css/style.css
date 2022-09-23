@@ -115,6 +115,10 @@ body{
     grid-template-columns: repeat(3,minmax(0,1fr));
 }
 
+.grid-clos-2{
+    grid-template-columns: repeat(2,minmax(0,1fr));
+}
+
 .grid__column-2-4{
     padding-left: 6px;
     padding-right: 6px;
@@ -159,3 +163,4 @@ body{
     padding-top: 2.25rem;
     padding-bottom: 2.25rem;
 }
+
