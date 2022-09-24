@@ -19,7 +19,7 @@ body{
 .container{
     max-width: 1200px;
     margin: 0 auto;
-    width: 100%;
+    width: auto;
 }
 
 .dis_flex{
@@ -102,7 +102,7 @@ body{
 }
 
 .grid__column-8{
-    padding-left: 6px;
+    padding-left: 1rem;
     padding-right: 1rem;
     width: 75%;
 }

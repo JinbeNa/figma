@@ -77,10 +77,6 @@
     height: 2.5rem;
     top: 0;
 }
-
-/* .search-bar__category-slug{
-
-} */
 /* User */
 .user__log-sig{
     padding-right: 20px;
@@ -126,7 +122,7 @@
 
 .slide{
     margin-bottom: 2rem;
-    justify-content: space-between;
+    justify-content: flex-end;
 }
 
 .slide__menu{
@@ -164,6 +160,29 @@
 .banner__img-longer{
     margin-top: 15px;
     justify-content: center;
+}
+
+.img-longer{
+    border-top-left-radius:2rem ;
+}
+
+.loca-1{
+    order: 1;
+    border-top-left-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+}
+.loca-2{
+    order: 2;
+
+}
+.loca-3{
+    order: 3;
+  
+}
+.loca-4{
+    order: 4;
+    border-top-right-radius: 2rem;
+    border-bottom-right-radius: 2rem;
 }
 
 /* Best sell */

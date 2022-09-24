@@ -1,4 +1,4 @@
-/* @media only screen and (min-width: 768px) {
+@media screen and (max-width: 768px) {
     .logo__img .logo__img--outside{
         display: block;
         justify-content: center;
@@ -10,29 +10,110 @@
     .header__up__search-bar{
         display: none;
     }
-
+/* Slide */
+    .slide{
+        display: block;
+    }
     .slide__menu{
         display: none;
     }
 
-    .slide__slide{
+    .grid__column-8{
+        width: auto;
         max-width: 768px;
+    }
+
+    .slide__slide{
         width: 100%;
         justify-content: center;
     }
-
+/* Banner */
     .banner .banner__img{
         max-width: 768px;
         overflow: hidden;
     }
 
     .banner__img .img__banner{
-        max-height: 100%;
-        
+        max-width: 100%; 
+    }
+
+    .img__banner__inside{
+        max-height: 9rem;
+        max-width: 100%;
+        height: auto;
+    }
+/* Banner-long */
+    .banner__img-longer{
+        max-width: 659px;
+        width: 100%;
     }
 
     .banner__img-longer{
-        display: grid;
-        grid-template-columns: repeat(2,minmax(0,1fr));
+        display: flex;
     }
-} */
+
+    .img-longer{
+        display: grid !important;
+        grid-template-columns: repeat(2,minmax(0,1fr));
+        background-color: #0098D2;
+        border-radius: 2rem;
+    }
+
+    .loca-1{
+        order: 1;
+        border-top-left-radius: 2rem;
+        border-bottom-left-radius:0;
+        gap: 0;
+        background-color: #0098D2;
+    }
+    .loca-2{
+        order: 2;
+        border-top-right-radius: 2rem;
+    }
+    .loca-3{
+        order: 4;
+        border-bottom-right-radius: 2rem;
+    }
+    .loca-4{
+        order: 3;
+        border-bottom-left-radius: 2rem;
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+/* New products */
+    .new-products{
+        max-width: 768px;
+        width: auto;
+    }
+    .new-products__table__body{
+        display: grid;
+        grid-template-columns: repeat(2,minmax(0,1fr))
+    }
+
+    .table__body__box{
+        text-align: center;
+        padding: 10px 10px 40px 10px;
+    }
+
+    .body__box__img{
+        justify-content: center;
+        width: 100%;
+    }
+
+    .table__img{
+        max-height: 16rem;
+    }
+
+    .body__box__text{
+        padding-top: 0.375rem;
+    }
+    .new__box__tag{
+        overflow: scroll;
+        ;
+    }
+
+    .box__tag__all{
+        outline: none;
+        width: 349px;
+    }
+}
