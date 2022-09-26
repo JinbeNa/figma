@@ -153,8 +153,12 @@
 
 /* Banner */
 .banner__img{
-    margin-bottom: 64px;
-    justify-content: space-between;  
+    margin-bottom: 54px;
+    justify-content: space-between;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
 }
 
 .banner__img-longer{
@@ -188,12 +192,16 @@
 /* Best sell */
 .best-sell{
     background-color: #edf4f7;
-    margin-top: 60px;
+    margin-top: 80px;
 }
 
 .best-sell__box{
     position: relative; 
     top: -1.25rem;
+}
+
+.best-sell__box__header{
+    padding-left: 1rem;
 }
 
 .best-sell__box__items__list{
@@ -216,6 +224,7 @@
 .new-products__header{
     top: -1.25rem;
     position: absolute;
+    right: 0;
     left: 0;
 }
 
@@ -445,6 +454,7 @@
     border-bottom-width: 1px;
     background-color: transparent;
     border-color: #fff;
+    outline: 0;
 }
 
 .deal__box__input__bnt{
@@ -463,6 +473,7 @@
     border-radius: 999px;
     color: #0069aa;
     border: 0 solid;
+    cursor: pointer;
 }
 
 .deal__box__input__icon{

@@ -1,3 +1,7 @@
+@media screen and (m-width: 768px){
+
+}
+
 @media screen and (max-width: 768px) {
     .logo__img .logo__img--outside{
         display: block;
@@ -10,6 +14,8 @@
     .header__up__search-bar{
         display: none;
     }
+    .
+
 /* Slide */
     .slide{
         display: block;
@@ -24,7 +30,7 @@
     }
 
     .slide__slide{
-        width: 100%;
+        width: 722px;
         justify-content: center;
     }
 /* Banner */
@@ -117,3 +123,65 @@
         width: 349px;
     }
 }
+
+@media screen and (max-width: 390px){
+    body{
+        max-width: 390px;
+    }
+
+    .nav-bar__list{
+        display: none;
+    }
+
+    .slide__slide{
+        width: 358px;
+    }
+
+    .banner__img-longer{
+        max-width: 390px;
+    }
+
+
+    .img__longer{
+        width: 180px;
+    }
+  
+    .box__tag__text{
+        width: 338px;
+
+    }
+
+    .news__more__box{
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        padding-right: 2rem;
+        padding-bottom: 1rem;
+        background-color: transparent;
+    }
+
+    .news__more__text{
+        width: 200px;
+    }
+
+    .deal__box__text{
+        font-size: 1.5rem;
+        font-weight: 600;
+        line-height: 2rem;
+        padding: 0;
+    }
+
+    .input__bnt{
+        font-size: 0.875rem;
+        line-height: 1.5rem;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        padding-left: 1.25rem;
+        padding-right: 1.25rem;
+    }
+
+    .link__inside{
+        font-size: 0.75rem;
+        line-height: 1rem;
+    }
+} 
