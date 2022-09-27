@@ -1,0 +1,16 @@
+/* Box right */
+.link__box__inside{
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.text__link{
+    text-decoration: inherit;
+    color: #000;
+}
+
+.icon__text__link{
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #00ADEF;
+}
