@@ -86,28 +86,455 @@
          </div>
          <div class="content__body container pad-1-lr">
             <div class="content__body__colum grid grid-clos-12">
-               <div class="content__body__b1">
+               <div class="content__body__b1 col-span-3">
                   <div class="body__b1 w-full">
+                     <!-- Box 1 -->
                      <div class="b1__box1">
-                        <p class="box1__header text-tran">Mức giá</p>
-                        <p class="box1__text1">Giá sản phẩm</p>
+                        <p class="box__header text-tran">Mức giá</p>
+                        <p class="box1__text">Giá sản phẩm</p>
                         <div class="box1__ll-input">
-
+                           <input type="text" style="height:1rem;">
                         </div>
-                        <p class="box1__text2">Giá tối thiểu</p>
+                        <p class="box1__text">Giá tối thiểu</p>
                         <div class="box1__text2__input">
-
+                           <div class="text2__input pos-rela">
+                              <input type="number" class="text2__input__box w-full">
+                              <div class="text__input__inside pos-ab dis_flex">
+                                 <p class="inside__text text-tran">VND</p>
+                              </div>
+                           </div>
                         </div>
-                        <p class="box1__text3">Giá tối đa</p>
-                        <div class="box1__text3__input">
-
+                        <p class="box1__text">Giá tối đa</p>
+                        <div class="box1__text3__input pos-rela">
+                           <input type="number" class="text2__input__box w-full">
+                              <div class="text__input__inside pos-ab dis_flex">
+                                 <p class="inside__text text-tran">VND</p>
+                              </div>
+                        </div>
+                        <div class="box1__bnt w-full dis_flex ">
+                           <button class="box1__bnt__inside text-nm pd-l-r-2 pd-tb-625">ÁP DỤNG</button>
                         </div>
                      </div>
-                     <div class="b1__box2"></div>
-                     <div class="b1__box3"></div>
+                     <!-- Box 2 -->
+                     <div class="b1__box2">
+                        <p class="box__header text-tran">Thương hiệu</p>
+                        <label class="box2__checkmark dis_flex text-nm algin_center pos-rela">
+                           <input class="checkmark" type="checkbox">
+                           <div class="box2__checkmark__text w-full dis_flex text-nm">
+                              <p class="mg-0">Blackmores - Úc</p>
+                              <p class="opacity-3 mg-0">21</p>
+                           </div>
+                           <span ></span>
+                        </label>
+                        <label class="box2__checkmark dis_flex text-nm algin_center pos-rela">
+                           <input class="checkmark" type="checkbox">
+                           <div class="box2__checkmark__text w-full dis_flex text-nm">
+                              <p class="mg-0">Samsung Hàn Quốc</p>
+                              <p class="opacity-3 mg-0">3</p>
+                           </div>
+                           <span ></span>
+                        </label>
+                        <label class="box2__checkmark dis_flex text-nm algin_center pos-rela">
+                           <input class="checkmark" type="checkbox">
+                           <div class="box2__checkmark__text w-full dis_flex text-nm">
+                              <p class="mg-0">Heatlthy Care - Úc</p>
+                              <p class="opacity-3 mg-0">12</p>
+                           </div>
+                           <span ></span>
+                        </label>
+                        <label class="box2__checkmark dis_flex text-nm algin_center pos-rela">
+                           <input class="checkmark" type="checkbox">
+                           <div class="box2__checkmark__text w-full dis_flex text-nm">
+                              <p class="mg-0">ILDONG FOODIS</p>
+                              <p class="opacity-3 mg-0">6</p>
+                           </div>
+                           <span ></span>
+                        </label>
+                        <label class="box2__checkmark dis_flex text-nm algin_center pos-rela">
+                           <input class="checkmark" type="checkbox">
+                           <div class="box2__checkmark__text w-full dis_flex text-nm">
+                              <p class="mg-0">ICREO - NHẬT</p>
+                              <p class="opacity-3 mg-0">2</p>
+                           </div>
+                           <span ></span>
+                        </label>
+                        <div class="box2__bnt dis_flex">
+                           <button class="box2__bnt__inside text-nm">Xem thêm</button>
+                        </div>
+                     </div>
+                     <!-- Box 3 -->
+                     <div class="b1__box3">
+                        <div class="b1__box2">
+                           <p class="box__header text-tran">loại sản phẩm</p>
+                           <label class="box2__checkmark dis_flex text-nm algin_center pos-rela">
+                              <input class="checkmark" type="checkbox">
+                              <div class="box2__checkmark__text w-full dis_flex text-nm">
+                                 <p class="mg-0">Bé uống</p>
+                                 <p class="opacity-3 mg-0">83</p>
+                              </div>
+                              <span ></span>
+                           </label>
+                           <label class="box2__checkmark dis_flex text-nm algin_center pos-rela">
+                              <input class="checkmark" type="checkbox">
+                              <div class="box2__checkmark__text w-full dis_flex text-nm">
+                                 <p class="mg-0">Bé vệ sinh</p>
+                                 <p class="opacity-3 mg-0">33</p>
+                              </div>
+                              <span ></span>
+                           </label>
+                           <label class="box2__checkmark dis_flex text-nm algin_center pos-rela">
+                              <input class="checkmark" type="checkbox">
+                              <div class="box2__checkmark__text w-full dis_flex text-nm">
+                                 <p class="mg-0">Bé chơi và học</p>
+                                 <p class="opacity-3 mg-0">2</p>
+                              </div>
+                              <span ></span>
+                           </label>
+                           <label class="box2__checkmark dis_flex text-nm algin_center pos-rela">
+                              <input class="checkmark" type="checkbox">
+                              <div class="box2__checkmark__text w-full dis_flex text-nm">
+                                 <p class="mg-0">Bé khỏe và an toàn</p>
+                                 <p class="opacity-3 mg-0">117</p>
+                              </div>
+                              <span ></span>
+                           </label>
+                           <label class="box2__checkmark dis_flex text-nm algin_center pos-rela">
+                              <input class="checkmark" type="checkbox">
+                              <div class="box2__checkmark__text w-full dis_flex text-nm">
+                                 <p class="mg-0">Dành cho gia đình</p>
+                                 <p class="opacity-3 mg-0">129</p>
+                              </div>
+                              <span ></span>
+                           </label>
+                           <div class="box2__bnt dis_flex">
+                              <button class="box2__bnt__inside text-nm">Xem thêm</button>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="content__body__b2 col-span-9">
+                  <div class="body__b2">
+                     <div class="body__b2__header pd-tb-1">
+                        <p class="body__b2__header__text text-tran text-fs-2">Danh sách sản phẩm</p>
+                     </div>
+                     <div class="body__b2__nav pd-tb-625">
+                        <div class="body__b2__nav__inside dis_flex algin_center pd-l-r-2">
+                           <p class="nav__text w-full text-nm">Sắp xếp theo</p>
+                           <button class="nav__bnt text-tran pd-tb-625">Giá thấp đến cao</button>
+                           <button class="nav__bnt text-tran pd-tb-625">Giá cao đến thấp</button>
+                        </div>
+                     </div>
+                     <div class="body__b2__products grid grid-clos-4">
+                        <a class="b2__products__all" href="">
+                           <div class="b2__products">
+                              <div class="b2__products__box dis_flex">
+                                 <div class="b2__products__box__img pos-rela">
+                                    <img class="products__img" src="https://cdn.hibeyo.vn/hibeyo/products/f02fe8b23c7076830cd231c34d4eb167/614c5be659448528830424d4/sua-hoang-gia-grow-up-pO3v0t_300x300.png" alt="">
+                                 </div>
+                              </div>
+                              <h4 class="products__text text-nm">Sữa Hoàng gia Úc Grow Up 3-14 tuổi - 500g</h4>
+                              <p class="products__price">890,000 VNĐ</p>
+                           </div>
+                        </a>
+                        <a class="b2__products__all" href="">
+                           <div class="b2__products">
+                              <div class="b2__products__box dis_flex">
+                                 <div class="b2__products__box__img pos-rela">
+                                    <img class="products__img" src="https://cdn.hibeyo.vn/hibeyo/products/f02fe8b23c7076830cd231c34d4eb167/614c5be659448528830424d4/sua-hoang-gia-grow-up-pO3v0t_300x300.png" alt="">
+                                 </div>
+                              </div>
+                              <h4 class="products__text text-nm">Sữa Hoàng gia Úc Grow Up 3-14 tuổi - 500g</h4>
+                              <p class="products__price">890,000 VNĐ</p>
+                           </div>
+                        </a>
+                        <a class="b2__products__all" href="">
+                           <div class="b2__products">
+                              <div class="b2__products__box dis_flex">
+                                 <div class="b2__products__box__img pos-rela">
+                                    <img class="products__img" src="https://cdn.hibeyo.vn/hibeyo/products/f02fe8b23c7076830cd231c34d4eb167/614c5be659448528830424d4/sua-hoang-gia-grow-up-pO3v0t_300x300.png" alt="">
+                                 </div>
+                              </div>
+                              <h4 class="products__text text-nm">Sữa Hoàng gia Úc Grow Up 3-14 tuổi - 500g</h4>
+                              <p class="products__price">890,000 VNĐ</p>
+                           </div>
+                        </a>
+                        <a class="b2__products__all" href="">
+                           <div class="b2__products">
+                              <div class="b2__products__box dis_flex">
+                                 <div class="b2__products__box__img pos-rela">
+                                    <img class="products__img" src="https://cdn.hibeyo.vn/hibeyo/products/f02fe8b23c7076830cd231c34d4eb167/614c5be659448528830424d4/sua-hoang-gia-grow-up-pO3v0t_300x300.png" alt="">
+                                 </div>
+                              </div>
+                              <h4 class="products__text text-nm">Sữa Hoàng gia Úc Grow Up 3-14 tuổi - 500g</h4>
+                              <p class="products__price">890,000 VNĐ</p>
+                           </div>
+                        </a>
+                        <a class="b2__products__all" href="">
+                           <div class="b2__products">
+                              <div class="b2__products__box dis_flex">
+                                 <div class="b2__products__box__img pos-rela">
+                                    <img class="products__img" src="https://cdn.hibeyo.vn/hibeyo/products/f02fe8b23c7076830cd231c34d4eb167/614c5be659448528830424d4/sua-hoang-gia-grow-up-pO3v0t_300x300.png" alt="">
+                                 </div>
+                              </div>
+                              <h4 class="products__text text-nm">Sữa Hoàng gia Úc Grow Up 3-14 tuổi - 500g</h4>
+                              <p class="products__price">890,000 VNĐ</p>
+                           </div>
+                        </a>
+                        <a class="b2__products__all" href="">
+                           <div class="b2__products">
+                              <div class="b2__products__box dis_flex">
+                                 <div class="b2__products__box__img pos-rela">
+                                    <img class="products__img" src="https://cdn.hibeyo.vn/hibeyo/products/f02fe8b23c7076830cd231c34d4eb167/614c5be659448528830424d4/sua-hoang-gia-grow-up-pO3v0t_300x300.png" alt="">
+                                 </div>
+                              </div>
+                              <h4 class="products__text text-nm">Sữa Hoàng gia Úc Grow Up 3-14 tuổi - 500g</h4>
+                              <p class="products__price">890,000 VNĐ</p>
+                           </div>
+                        </a>
+                        <a class="b2__products__all" href="">
+                           <div class="b2__products">
+                              <div class="b2__products__box dis_flex">
+                                 <div class="b2__products__box__img pos-rela">
+                                    <img class="products__img" src="https://cdn.hibeyo.vn/hibeyo/products/f02fe8b23c7076830cd231c34d4eb167/614c5be659448528830424d4/sua-hoang-gia-grow-up-pO3v0t_300x300.png" alt="">
+                                 </div>
+                              </div>
+                              <h4 class="products__text text-nm">Sữa Hoàng gia Úc Grow Up 3-14 tuổi - 500g</h4>
+                              <p class="products__price">890,000 VNĐ</p>
+                           </div>
+                        </a>
+                        <a class="b2__products__all" href="">
+                           <div class="b2__products">
+                              <div class="b2__products__box dis_flex">
+                                 <div class="b2__products__box__img pos-rela">
+                                    <img class="products__img" src="https://cdn.hibeyo.vn/hibeyo/products/f02fe8b23c7076830cd231c34d4eb167/614c5be659448528830424d4/sua-hoang-gia-grow-up-pO3v0t_300x300.png" alt="">
+                                 </div>
+                              </div>
+                              <h4 class="products__text text-nm">Sữa Hoàng gia Úc Grow Up 3-14 tuổi - 500g</h4>
+                              <p class="products__price">890,000 VNĐ</p>
+                           </div>
+                        </a>
+                        <a class="b2__products__all" href="">
+                           <div class="b2__products">
+                              <div class="b2__products__box dis_flex">
+                                 <div class="b2__products__box__img pos-rela">
+                                    <img class="products__img" src="https://cdn.hibeyo.vn/hibeyo/products/f02fe8b23c7076830cd231c34d4eb167/614c5be659448528830424d4/sua-hoang-gia-grow-up-pO3v0t_300x300.png" alt="">
+                                 </div>
+                              </div>
+                              <h4 class="products__text text-nm">Sữa Hoàng gia Úc Grow Up 3-14 tuổi - 500g</h4>
+                              <p class="products__price">890,000 VNĐ</p>
+                           </div>
+                        </a>
+                        <a class="b2__products__all" href="">
+                           <div class="b2__products">
+                              <div class="b2__products__box dis_flex">
+                                 <div class="b2__products__box__img pos-rela">
+                                    <img class="products__img" src="https://cdn.hibeyo.vn/hibeyo/products/f02fe8b23c7076830cd231c34d4eb167/614c5be659448528830424d4/sua-hoang-gia-grow-up-pO3v0t_300x300.png" alt="">
+                                 </div>
+                              </div>
+                              <h4 class="products__text text-nm">Sữa Hoàng gia Úc Grow Up 3-14 tuổi - 500g</h4>
+                              <p class="products__price">890,000 VNĐ</p>
+                           </div>
+                        </a>
+                        <a class="b2__products__all" href="">
+                           <div class="b2__products">
+                              <div class="b2__products__box dis_flex">
+                                 <div class="b2__products__box__img pos-rela">
+                                    <img class="products__img" src="https://cdn.hibeyo.vn/hibeyo/products/f02fe8b23c7076830cd231c34d4eb167/614c5be659448528830424d4/sua-hoang-gia-grow-up-pO3v0t_300x300.png" alt="">
+                                 </div>
+                              </div>
+                              <h4 class="products__text text-nm">Sữa Hoàng gia Úc Grow Up 3-14 tuổi - 500g</h4>
+                              <p class="products__price">890,000 VNĐ</p>
+                           </div>
+                        </a>
+                        <a class="b2__products__all" href="">
+                           <div class="b2__products">
+                              <div class="b2__products__box dis_flex">
+                                 <div class="b2__products__box__img pos-rela">
+                                    <img class="products__img" src="https://cdn.hibeyo.vn/hibeyo/products/f02fe8b23c7076830cd231c34d4eb167/614c5be659448528830424d4/sua-hoang-gia-grow-up-pO3v0t_300x300.png" alt="">
+                                 </div>
+                              </div>
+                              <h4 class="products__text text-nm">Sữa Hoàng gia Úc Grow Up 3-14 tuổi - 500g</h4>
+                              <p class="products__price">890,000 VNĐ</p>
+                           </div>
+                        </a>
+                        <a class="b2__products__all" href="">
+                           <div class="b2__products">
+                              <div class="b2__products__box dis_flex">
+                                 <div class="b2__products__box__img pos-rela">
+                                    <img class="products__img" src="https://cdn.hibeyo.vn/hibeyo/products/f02fe8b23c7076830cd231c34d4eb167/614c5be659448528830424d4/sua-hoang-gia-grow-up-pO3v0t_300x300.png" alt="">
+                                 </div>
+                              </div>
+                              <h4 class="products__text text-nm">Sữa Hoàng gia Úc Grow Up 3-14 tuổi - 500g</h4>
+                              <p class="products__price">890,000 VNĐ</p>
+                           </div>
+                        </a>
+                        <a class="b2__products__all" href="">
+                           <div class="b2__products">
+                              <div class="b2__products__box dis_flex">
+                                 <div class="b2__products__box__img pos-rela">
+                                    <img class="products__img" src="https://cdn.hibeyo.vn/hibeyo/products/f02fe8b23c7076830cd231c34d4eb167/614c5be659448528830424d4/sua-hoang-gia-grow-up-pO3v0t_300x300.png" alt="">
+                                 </div>
+                              </div>
+                              <h4 class="products__text text-nm">Sữa Hoàng gia Úc Grow Up 3-14 tuổi - 500g</h4>
+                              <p class="products__price">890,000 VNĐ</p>
+                           </div>
+                        </a>
+                        <a class="b2__products__all" href="">
+                           <div class="b2__products">
+                              <div class="b2__products__box dis_flex">
+                                 <div class="b2__products__box__img pos-rela">
+                                    <img class="products__img" src="https://cdn.hibeyo.vn/hibeyo/products/f02fe8b23c7076830cd231c34d4eb167/614c5be659448528830424d4/sua-hoang-gia-grow-up-pO3v0t_300x300.png" alt="">
+                                 </div>
+                              </div>
+                              <h4 class="products__text text-nm">Sữa Hoàng gia Úc Grow Up 3-14 tuổi - 500g</h4>
+                              <p class="products__price">890,000 VNĐ</p>
+                           </div>
+                        </a>
+                        <a class="b2__products__all" href="">
+                           <div class="b2__products">
+                              <div class="b2__products__box dis_flex">
+                                 <div class="b2__products__box__img pos-rela">
+                                    <img class="products__img" src="https://cdn.hibeyo.vn/hibeyo/products/f02fe8b23c7076830cd231c34d4eb167/614c5be659448528830424d4/sua-hoang-gia-grow-up-pO3v0t_300x300.png" alt="">
+                                 </div>
+                              </div>
+                              <h4 class="products__text text-nm">Sữa Hoàng gia Úc Grow Up 3-14 tuổi - 500g</h4>
+                              <p class="products__price">890,000 VNĐ</p>
+                           </div>
+                        </a>
+                        <a class="b2__products__all" href="">
+                           <div class="b2__products">
+                              <div class="b2__products__box dis_flex">
+                                 <div class="b2__products__box__img pos-rela">
+                                    <img class="products__img" src="https://cdn.hibeyo.vn/hibeyo/products/f02fe8b23c7076830cd231c34d4eb167/614c5be659448528830424d4/sua-hoang-gia-grow-up-pO3v0t_300x300.png" alt="">
+                                 </div>
+                              </div>
+                              <h4 class="products__text text-nm">Sữa Hoàng gia Úc Grow Up 3-14 tuổi - 500g</h4>
+                              <p class="products__price">890,000 VNĐ</p>
+                           </div>
+                        </a>
+                        <a class="b2__products__all" href="">
+                           <div class="b2__products">
+                              <div class="b2__products__box dis_flex">
+                                 <div class="b2__products__box__img pos-rela">
+                                    <img class="products__img" src="https://cdn.hibeyo.vn/hibeyo/products/f02fe8b23c7076830cd231c34d4eb167/614c5be659448528830424d4/sua-hoang-gia-grow-up-pO3v0t_300x300.png" alt="">
+                                 </div>
+                              </div>
+                              <h4 class="products__text text-nm">Sữa Hoàng gia Úc Grow Up 3-14 tuổi - 500g</h4>
+                              <p class="products__price">890,000 VNĐ</p>
+                           </div>
+                        </a>
+                        <a class="b2__products__all" href="">
+                           <div class="b2__products">
+                              <div class="b2__products__box dis_flex">
+                                 <div class="b2__products__box__img pos-rela">
+                                    <img class="products__img" src="https://cdn.hibeyo.vn/hibeyo/products/f02fe8b23c7076830cd231c34d4eb167/614c5be659448528830424d4/sua-hoang-gia-grow-up-pO3v0t_300x300.png" alt="">
+                                 </div>
+                              </div>
+                              <h4 class="products__text text-nm">Sữa Hoàng gia Úc Grow Up 3-14 tuổi - 500g</h4>
+                              <p class="products__price">890,000 VNĐ</p>
+                           </div>
+                        </a>
+                        <a class="b2__products__all" href="">
+                           <div class="b2__products">
+                              <div class="b2__products__box dis_flex">
+                                 <div class="b2__products__box__img pos-rela">
+                                    <img class="products__img" src="https://cdn.hibeyo.vn/hibeyo/products/f02fe8b23c7076830cd231c34d4eb167/614c5be659448528830424d4/sua-hoang-gia-grow-up-pO3v0t_300x300.png" alt="">
+                                 </div>
+                              </div>
+                              <h4 class="products__text text-nm">Sữa Hoàng gia Úc Grow Up 3-14 tuổi - 500g</h4>
+                              <p class="products__price">890,000 VNĐ</p>
+                           </div>
+                        </a>
+                        <a class="b2__products__all" href="">
+                           <div class="b2__products">
+                              <div class="b2__products__box dis_flex">
+                                 <div class="b2__products__box__img pos-rela">
+                                    <img class="products__img" src="https://cdn.hibeyo.vn/hibeyo/products/f02fe8b23c7076830cd231c34d4eb167/614c5be659448528830424d4/sua-hoang-gia-grow-up-pO3v0t_300x300.png" alt="">
+                                 </div>
+                              </div>
+                              <h4 class="products__text text-nm">Sữa Hoàng gia Úc Grow Up 3-14 tuổi - 500g</h4>
+                              <p class="products__price">890,000 VNĐ</p>
+                           </div>
+                        </a>
+                        <a class="b2__products__all" href="">
+                           <div class="b2__products">
+                              <div class="b2__products__box dis_flex">
+                                 <div class="b2__products__box__img pos-rela">
+                                    <img class="products__img" src="https://cdn.hibeyo.vn/hibeyo/products/f02fe8b23c7076830cd231c34d4eb167/614c5be659448528830424d4/sua-hoang-gia-grow-up-pO3v0t_300x300.png" alt="">
+                                 </div>
+                              </div>
+                              <h4 class="products__text text-nm">Sữa Hoàng gia Úc Grow Up 3-14 tuổi - 500g</h4>
+                              <p class="products__price">890,000 VNĐ</p>
+                           </div>
+                        </a>
+                        <a class="b2__products__all" href="">
+                           <div class="b2__products">
+                              <div class="b2__products__box dis_flex">
+                                 <div class="b2__products__box__img pos-rela">
+                                    <img class="products__img" src="https://cdn.hibeyo.vn/hibeyo/products/f02fe8b23c7076830cd231c34d4eb167/614c5be659448528830424d4/sua-hoang-gia-grow-up-pO3v0t_300x300.png" alt="">
+                                 </div>
+                              </div>
+                              <h4 class="products__text text-nm">Sữa Hoàng gia Úc Grow Up 3-14 tuổi - 500g</h4>
+                              <p class="products__price">890,000 VNĐ</p>
+                           </div>
+                        </a>
+                        <a class="b2__products__all" href="">
+                           <div class="b2__products">
+                              <div class="b2__products__box dis_flex">
+                                 <div class="b2__products__box__img pos-rela">
+                                    <img class="products__img" src="https://cdn.hibeyo.vn/hibeyo/products/f02fe8b23c7076830cd231c34d4eb167/614c5be659448528830424d4/sua-hoang-gia-grow-up-pO3v0t_300x300.png" alt="">
+                                 </div>
+                              </div>
+                              <h4 class="products__text text-nm">Sữa Hoàng gia Úc Grow Up 3-14 tuổi - 500g</h4>
+                              <p class="products__price">890,000 VNĐ</p>
+                           </div>
+                        </a>
+
+                     </div>
+                     <div class="body__b2__footer dis_flex pd-tb-175">
+                        <!-- <div class="body__b2__footer__box">
+                           <ul class="footer__page pagination">
+                              <li class="page-item">
+                                 <a href="" class="page-item__bnt" role="button" tabindex="0" aria-disabled="true" aria-label="Previous page" rel="prev"> </a>
+                              </li>
+                              <li class="page-item active">
+                                 <a href="" class="page-item__link" role="button" tabindex="0" aria-label="Page 1 is your current page" aria-current="page">1</a>
+                              </li>
+                              <li class="page-item">
+                                 <a href="" class="page-item__link" role="button" tabindex="0" aria-label="Page 1 is your current page" aria-current="page">2</a>
+                              </li>
+                              <li class="page-item">
+                                 <a href="" class="page-item__link" role="button" tabindex="0" aria-label="Page 1 is your current page" aria-current="page">3</a>
+                              </li>
+                              <li class="break-me">
+                                 <a role="button" tabindex="0"> . . </a>
+                              </li>
+                              <li class="page-item">
+                                 <a href="" class="page-item__link" role="button" tabindex="0" aria-label="Page 1 is your current page" aria-current="page">21</a>
+                              </li>
+                              <li class="page-item">
+                                 <a href="" class="page-item__link" role="button" tabindex="0" aria-label="Page 1 is your current page" aria-current="page">22</a>
+                              </li>
+                              <li class="page-item">
+                                 <a href="" class="page-item__bnt" role="button" tabindex="0" aria-disabled="false" aria-label="Next page" rel="next"> </a>
+                              </li>
+                           </ul>
+                        </div> -->
+                        <div class="body__b2__footer__box pagination">
+                           <a href="#">&laquo;</a>
+                           <a href="#" class="active">1</a>
+                           <a href="#" >2</a>
+                           <a href="#">3</a>
+                           <a href="#"> . . </a>
+                           <a href="#">21</a>
+                           <a href="#">22</a>
+                           <a href="#">&raquo;</a>
+                     </div>
                   </div>
                </div>
             </div>
+         
          </div>
       </div>
 
