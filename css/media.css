@@ -197,7 +197,17 @@
     }
     .nav-bar__list{
         padding-left: 0px;
-        
+    }
+
+    .list__link{
+        font-size: 0.65rem; 
+        padding-right: 5px;
+        padding-left: 5px;
+        border-right: 1px solid #fff;
+    }
+
+    .border__end{
+        border-right: 0;
     }
 
     .slide__slide{
