@@ -21,6 +21,20 @@
     padding-left: 1rem;
     padding-right: 1rem;
 }
+
+.header__up__menu-390{
+    display: none;
+}
+
+.header__up__menu-390__list{
+    visibility: hidden;
+    opacity: 0;
+    margin-left: -100px;
+    max-width: 100px;
+    overflow: hidden;
+    z-index: -1;
+}
+
 /* Logo */
 .header__up__logo{
     width: 290px;

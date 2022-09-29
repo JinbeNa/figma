@@ -54,6 +54,10 @@ body{
     width: 100%;
 }
 
+.h-full{
+    height: 100%;
+}
+
 .box{
     box-sizing: border-box;
     border: none;
@@ -155,6 +159,11 @@ body{
         padding-bottom: 1.75rem;
     }
 
+    .pd-tb-75{
+        padding-top: 0.75rem;
+        padding-bottom: 0.75rem;
+    }
+
 /* Gird */
     .grid{
         display: grid;
@@ -246,12 +255,28 @@ body{
   }
   
   .pagination a.active {
-    background-color: #4CAF50;
+    background-color: #00ADEF;
     color: white;
-    border-radius: 5px;
+    border-radius: 9999px;
   }
   
   .pagination a:hover:not(.active) {
     background-color: #ddd;
     border-radius: 5px;
   }
+
+
+.show-menu{
+    visibility: visible;
+    opacity: 1;
+    margin-left: 1.25rem;
+    max-width: auto;
+}  
+.hide-menu{
+    visibility: hidden;
+    opacity: 0;
+    margin-left: -100px;
+    max-width: 100px;
+    overflow: hidden;
+    z-index: -1;
+}
