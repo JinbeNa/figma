@@ -196,7 +196,8 @@
         color: black;
     }
     .nav-bar__list{
-        display: none;
+        padding-left: 0px;
+        
     }
 
     .slide__slide{
