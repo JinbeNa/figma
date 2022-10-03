@@ -1,0 +1,172 @@
+.text__infor-product{
+    opacity: 0.3;
+}
+
+.content__infor{
+    padding-bottom: 8rem;
+    margin-top: 2.5rem;
+}
+
+.content__infor__box{
+    padding-bottom: 7rem;
+}
+
+.infor__box{
+    padding-top: 1.25rem;
+}
+
+.infor__box__img{
+    flex: 1 1 0%;
+    margin-right: 0.75rem;
+}
+
+.box__img-mini{
+    height: 100%;
+    
+}
+
+.img-mini{
+    width: 6rem;
+    display: block;
+    max-height: 500px;
+}
+
+.img-mini__box{
+    width: 100%;
+}
+
+.box__img{
+    margin-left: 1.25rem;
+}
+
+.img-product{
+    width: 100%;
+    height: auto;
+    display: block;
+    
+}
+
+.infor__box__text{
+    margin-left: 6rem;
+    max-width: 470px;
+}
+
+.infor__product__text{
+    font-weight: 600;
+    padding-bottom: 0.75rem;
+    border-bottom: 2px solid #00adef;
+}
+
+.infor__product__price{
+    line-height: 1.25rem;
+    font-size: 1.125rem;
+    padding-top: 0.5rem;
+    margin: 0;
+}
+
+.infor__product__price__text{
+    line-height: 2rem;
+    font-weight: 600;
+    font-size: 2.25rem;
+    color: #00adef;
+    margin: 0;
+}
+
+.product__text{
+    font-weight: 400;
+    line-height: 1.75rem;
+    font-size: 1.125rem;
+    border-top: 1px solid rgba(209,213,219,1);
+}
+
+.product__text__footer{
+    padding-top: 1.75rem;
+}
+
+.amount__header{
+    font-weight: 600;
+    padding-bottom: 0.5rem;
+    margin: 0;
+}
+
+.amount__select{
+    justify-content: space-between;
+}
+
+.amount__select__all{
+    border: 1px dashed rgba(209,213,219,1);
+    border-radius: 9999px;
+}
+
+.amount__down , .amount__up{
+    border: 0;
+    background-color: transparent;
+    padding: 0.25rem;
+}
+
+.amount__input{
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+    width: 2.5rem;
+    text-align: center;
+    font-weight: 500;
+    border: 0;
+}
+
+.share__icon{
+    border: 0;
+    background-color: transparent;
+}
+
+.text__footer__link{
+    color: inherit;
+    text-decoration: inherit;
+}
+
+.footer__link__bnt{
+    width: auto;
+    margin-right: 1.25rem;
+    color: #fff;
+    border-radius: 9999px;
+    border: 0;
+    cursor: pointer;
+}
+
+.footer__link__bnt2{
+    color: #fff;
+    border-radius: 9999px;
+    border: 0;
+    cursor: pointer;
+    margin-top: 0;
+    width: auto;
+
+}
+
+.info-text__box{
+    margin-bottom: 4.25rem;
+}
+
+
+.info-text__box__inside{
+    padding-left: 3rem;
+    padding-right: 5rem;
+    padding-bottom: 1.75rem;
+    padding-top: 1.5rem;
+    background-color: #edf4f6;
+    border-radius: 0.75rem;
+    width: auto;
+}
+
+.infor-text__header{
+    font-weight: 700;
+    line-height: 1.75rem;
+    font-size: 1.125rem;
+    margin: 0;
+    padding-bottom: 0.75rem;
+    color: #0069aa;
+}
+
+.infor-text__list{
+    padding: 0;
+    margin: 0;
+}
