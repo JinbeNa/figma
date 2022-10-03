@@ -27,7 +27,7 @@
     }
 
     .slide__slide{
-        width: 722px;
+        width: auto;
         justify-content: center;
     }
 /* Banner */
@@ -104,7 +104,7 @@
     }
 
     .table__img{
-        max-height: 16rem;
+        max-height: 160px;
     }
 
     .body__box__text{
@@ -118,6 +118,24 @@
     .box__tag__all{
         outline: none;
         width: 349px;
+    }
+
+    .box__header__img{
+        width: 100%;
+    }
+
+    .new__img{
+        width: 100%;
+    }
+    .new__box{
+        max-width: 360px;
+    }
+    .box__inside{
+        left: 0;
+        
+    }
+    .new__img{
+        width: 312px !important;
     }
 }
 
@@ -210,9 +228,7 @@
         border-right: 0 ;
     }
 
-    .slide__slide{
-        width: 358px;
-    }
+    
 
     .banner__img-longer{
         max-width: 390px;
