@@ -1,3 +1,10 @@
+p{
+    margin: 0;
+}
+
+li{
+    list-style: none;
+}
 :root{
     --white-color:#FFF;
     --blue-color:#00ADEF;
@@ -82,6 +89,11 @@ body{
     margin: 0;
 }
 
+.mg-175{
+    margin-top: 1.75rem;
+    margin-bottom: 1.75rem
+}
+
 /* Text */
     .text{
         color: #FFF;
@@ -108,7 +120,15 @@ body{
         text-transform: uppercase;
     }
 
+    .mr-t-175{
+        margin-top: 1.75rem;
+    }
+
 /* Padding */
+    .pd-lr-25{
+        padding-left: 0.25rem;
+        padding-right: 0.25rem;
+    }
 
     .pad-1{
         padding: 1rem;
@@ -132,6 +152,11 @@ body{
     .pd-l-r-3{
         padding-left: 3rem;
         padding-right: 3rem;
+    }
+
+    .pd-l-r-4{
+        padding-left: 3.5rem;
+        padding-right: 3.5rem;
     }
 
     .pd-t-b-2{
@@ -162,6 +187,11 @@ body{
     .pd-tb-75{
         padding-top: 0.75rem;
         padding-bottom: 0.75rem;
+    }
+
+    .pd-tb-5{
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
     }
 
 /* Gird */
@@ -281,6 +311,7 @@ body{
     z-index: -1;
 }
 
+<<<<<<< HEAD
 /* Modal */
 .modal{
     position: fixed;
@@ -303,3 +334,6 @@ body{
     margin: auto;
     border-radius: 5px;
 }
+=======
+
+>>>>>>> 5dc73f715ae3ccbfe92921726251bca6c07b098d

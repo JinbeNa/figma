@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/media.css">
+    <link rel="stylesheet" href="/css/products.css">
+    <link rel="stylesheet" href="/css/infor-product.css">
+    <meta name="viewport" content="width=device-width, inital-scale=1.0">
+    <link rel="stylesheet" href="/font/fontawesome-free-6.1.2-web/css/all.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Play&amp;display=swap" rel="stylesheet">
+   <title>Thông tin sản phẩm</title>
+</head>
+<body>
+   <div class="all">
+      <!-- Header -->
+      <div class="header">
+         <div class="header__up">
+            <div class="header__up--all container dis_flex">
+               <div class="header__up__menu-390 ">
+                  <div class="menu-390__bnt dis_flex">
+                     <button type="button" class="menu__bnt">
+                        <i class="icon__menu__bnt fa-solid fa-list"></i>
+                     </button>
+                     <div class="header__up__menu-390__list pos-ab w-full">
+                        <div class="menu-390__list">
+                           <ul class="menu-390__list__item pad-1-lr show-menu">
+                              <li class="menu-390__item h-full text-tran">
+                                 <a  class="menu-390__link h-full dis_flex pd-tb-75" href="">Trang chủ</a>
+                              </li>
+                              <li class="menu-390__item h-full text-tran">
+                                 <a  class="menu-390__link h-full dis_flex pd-tb-75" href="">tin tức</a>
+                              </li>
+                              <li class="menu-390__item h-full text-tran">
+                                 <a  class="menu-390__link h-full dis_flex pd-tb-75" href="">giới thiệu</a>
+                              </li>
+                              <li class="menu-390__item h-full text-tran">
+                                 <a  class="menu-390__link h-full dis_flex pd-tb-75" href="">khuyến mãi</a>
+                              </li>
+                              <li class="menu-390__item h-full text-tran">
+                                 <a  class="menu-390__link h-full dis_flex pd-tb-75" href="">sản phẩm</a>
+                              </li>
+                              <li class="menu-390__item h-full text-tran">
+                                 <a  class="menu-390__link h-full dis_flex pd-tb-75" href="">liên hệ</a>
+                              </li>
+                           </ul>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <!-- Logo -->
+               <div class="header__up__logo dis_flex">
+                  <div class="logo__img">
+                     <a href="/index.html" class="logo__img--outside">
+                        <img src="/img/logo2 1.png" alt="logo" class="logo__img--inside">
+                     </a>
+                     <img src="/img/Frame.png" alt="logo down" class="logo__img__dow">
+                  </div>
+               </div>
+               <!-- Search-bar -->
+               <div class="header__up__search-bar">
+                  <form action="" class="search-bar--m dis_flex algin_center">
+                     <input class="search-bar__input" type="text" placeholder="Tìm kiếm sản phẩm tại đây">
+                     <button type="submit" class="search__btn algin_center flex">
+                        <i class="search__btn__icon fa-sharp fa-solid fa-magnifying-glass"></i>
+                     </button>
+                  </form>
+                  <!-- <div class="search-bar__category dis_flex algin_center">
+                     <select class="search-bar__category-slug" name="" id=""></select>
+                  </div> -->
+               </div>
+   
+               <div class="header__up__user dis_flex algin_center">
+                  <div class="user__log-sig">
+                     <i class="fa-solid fa-user"></i>
+                     <button class="user__log-in box text">Đăng nhập</button>
+                     <button class="user__sig-in box text">Đăng ký</button>
+                  </div>
+                  <!-- User -->
+                  <div class="user__cart dis_flex algin_center">
+                     <i class="icon__cart fa-solid fa-cart-shopping"></i>
+                     <p class="cart__text text">Giỏ hàng</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+
+         <div class="header__dow">
+           <div class="header__dow__nav-bar container ">
+               <div class="nav-bar">
+                  <ul class="nav-bar__list dis_flex">
+                     <li class="list text text-tran">
+                        <a class="list__link" href="/">Trang chủ</a> 
+                     </li>
+                     <li class="list text text-tran">
+                        <a class="list__link" href="">Tin tức</a> 
+                     </li>
+                     <li class="list text text-tran">
+                        <a class="list__link" href="">Giới thiệu</a> 
+                     </li>
+                     <li class="list text text-tran">
+                        <a class="list__link" href="">khuyến mãi</a> 
+                     </li>
+                     <li class="list text text-tran">
+                        <a class="list__link" href="/html/products.html">sản phẩm</a> 
+                     </li>
+                     <li class="list text text-tran">
+                        <a class="list__link border__end" href="">liên hệ</a> 
+                     </li>
+                  </ul>
+               </div>
+           </div>
+         </div>
+      </div>
+
+      <div class="content">
+        <div class="content__link w-full">
+           <div class="content__link__box container pad-1-lr">
+              <div class="link__box__inside dis_flex text-fs-1 ">
+                 <a class="text__link" href="">Trang chủ</a>
+                 <i class="icon__text__link fa-solid fa-angle-right"></i>
+                 <a class="text__link" href="">Sản phẩm</a>
+                 <i class="icon__text__link fa-solid fa-angle-right"></i>
+                 <a class="text__link text__infor-product" href="">Sữa Hikid dê Hàn Quốc tăng chiều cao ( 1- 9 tuổi)</a>
+              </div>
+           </div>
+        </div>
+
+        <div class="content__infor w-full ">
+            <div class="content__infor__box container pad-1-lr">
+                <div class="infor__box dis_flex">
+                    <div class="infor__box__img">
+                        <div class="box__img__all dis_flex">
+                            <div class="box__img-mini dis_flex algin_center">
+                                <div class="img-mini ">
+                                    <div class="img-mini__box">
+                                        <img class="w-full" src="https://cdn.hibeyo.vn/hibeyo/products/563fc6fab9ff7663135bd6237d9b8906/610114cef2ea0333715c9259/fitobimbi-omega-1024x1024-ycGOId_300x300.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="box__img w-full">
+                                <div class="box__img__inside w-full">
+                                    <div class="img__product pos-rela">
+                                        <img class="img-product" src="https://cdn.hibeyo.vn/hibeyo/products/563fc6fab9ff7663135bd6237d9b8906/610114cef2ea0333715c9259/fitobimbi-omega-1024x1024-ycGOId_300x300.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Infor Product -->
+                    <div class="infor__box__text">
+                        <div>
+                            <h3 class="infor__product__text text-fs-2">Thực phẩm bảo vệ sức khỏe omega junior fitobimbi (hộp)</h3>
+                            <div class="grid grid-clos-4 mg-175" ></div>
+                            <p class="infor__product__price">Giá tiền</p>
+                            <p class="infor__product__price__text pd-tb-5">390,000 VNĐ</p>
+                        </div>
+                        <div class="infor__product__box__text pd-t-b-2">
+                            <div class="product__text grid grid-clos-2 pd-tb-5">
+                                <p>Xuất sứ:</p>
+                                <p>Italy</p>
+                            </div>
+                            <div class="product__text grid grid-clos-2 pd-tb-5">
+                                <p>Thương hiệu:</p>
+                                <p>FITOBIMBI - ITALY</p>
+                            </div>
+                            <div class="product__text grid grid-clos-2 pd-tb-5" style="border-bottom: 1px solid rgba(209,213,219,1) ;">
+                                <p>Loại:</p>
+                                <p>Tăng đề kháng</p>
+                            </div>
+                            <div class="product__text__footer grid grid-clos-2">
+                                <div class="text__amount text-nm">
+                                    <p class="amount__header text-tran opacity-3">chọn số lượng</p>
+                                    <div class="amount__select dis_flex">
+                                       <div class="amount__select__all dis_flex">
+                                            <button class="amount__down ">
+                                                <img src="https://hibeyo.vn/img/tru.png" alt="">
+                                            </button>
+                                            <input type="text" class="amount__input" value="1">
+                                            <button class="amount__up ">
+                                                <img src="https://hibeyo.vn/img/cong.png" alt="">
+                                            </button>
+                                       </div> 
+                                    </div>
+                                </div>
+                                <div class="text__share text-nm">
+                                    <p class="amount__header text-tran opacity-3">chia sẻ</p>
+                                    <button class="share__icon">
+                                        <img src="https://hibeyo.vn/img/facebook_detailproduct.png" alt="">
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="infor__box__text__footer dis_flex">
+                            <a href="" class="text__footer__link">
+                                <button class="footer__link__bnt text-tran text-nm pd-tb-75 pd-l-r-4" style="background: #0069aa;">
+                                    Thêm vào giỏ hàng
+                                </button>
+                            </a>
+                            <a href="" class="text__footer__link">
+                                <button class="footer__link__bnt2 text-tran text-nm pd-tb-75 pd-l-r-4" style="background: #00adef;">
+                                    Mua hàng
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Infor Text -->
+            <div class="info-text__box container pad-1-lr">
+                <div class="info-text__box__inside ">
+                    <h3 class="infor-text__header text-tran">Mô tả sản phẩm</h3>
+                    <ul class="infor-text__list">
+                        <p>Thực phẩm bổ sung sức khỏe Fitobimbi omega Junior-</p>
+                        <p>
+                            -
+                            <span>Bổ sung Omega 3, Omega 6</span>
+                        </p>
+                        <p>
+                            -
+                            <span>Bổ sung Omega 3, Omega 6</span>
+                        </p>
+                    </ul>
+                </div>
+                <div class="info-text__box__inside mr-t-175">
+                    <h3 class="infor-text__header text-tran">Mô tả sản phẩm</h3>
+                    <ul class="infor-text__list">
+                        <li>Hỗ trợ phát triển toàn diện não bộ, thị giác, miễn dịch và sự tăng trưởng của bé trong những năm đầu đời. Ngoài hỗ trợ phát triển não bộ cho bé thì việc bổ sung Omega 3 từ thực vật còn hỗ trợ tăng cường miễn dịch, giúp bé yêu luôn khỏe mạnh.</li>
+                        <li>Omega 3 Fitobimbi  được chiết xuất từ Lý chua đen và dầu đậu nành nên hoàn toàn không có nguy cơ gây ngộ độc Thủy ngân từ nguồn cá đại dương.</li>
+                        <li>Omega Junior không mùi vị, không tanh nồng, không gây kích ứng dạ dày, nôn trớ như dầu cá. Có thể dùng trực tiếp hoặc pha cùng đồ uống, thức ăn của bé.</li>
+                        <li>Một lọ Omega Junior 30ml tương đương khoảng 600 giọt có thể sử dụng tới tận 3 - 4 tháng.</li>
+                    </ul>
+                </div>
+                <div class="info-text__box__inside mr-t-175">
+                    <h3 class="infor-text__header text-tran">Công dụng</h3>
+                    <ul class="infor-text__list">
+                        <p>Thực phẩm bổ sung sức khỏe Fitobimbi omega Junior-</p>
+                        <p>
+                            -
+                            <span>Bổ sung Omega 3, Omega 6</span>
+                        </p>
+                        <p>
+                            -
+                            <span>Bổ sung Omega 3, Omega 6</span>
+                        </p>
+                    </ul>
+                </div>
+                <div class="info-text__box__inside mr-t-175">
+                    <h3 class="infor-text__header text-tran">Mô tả sản phẩm</h3>
+                    <ul class="infor-text__list">
+                        <p>Thực phẩm bổ sung sức khỏe Fitobimbi omega Junior-</p>
+                        <p>
+                            -
+                            <span>Bổ sung Omega 3, Omega 6</span>
+                        </p>
+                        <p>
+                            -
+                            <span>Bổ sung Omega 3, Omega 6</span>
+                        </p>
+                    </ul>
+                </div>
+            </div>
+            <div class="banner container w-full">
+               <div class="banner__img-longer container w-full">
+                  <div  class="img-longer" style="display: flex; justify-content: center;">
+                     <img class="img__longer loca-1" src="/img/bnn1.png" alt="banner img">
+                     <img class="img__longer loca-2" src="/img/bnn4.png" alt="banner img">
+                     <img class="img__longer loca-3" src="/img/bnn2.png" alt="banner img">
+                     <img class="img__longer loca-4" src="/img/bnn3.png" alt="banner img">
+                  </div>
+               </div>
+            </div>
+            <div class="new-products container pad-1-lr">
+               <div class="new-products__header container pad-1-lr">
+                  <div class="new-products__header__img w-full dis_flex">
+                     <img class="header__img" src="/img/logo_down.png" alt="">
+                  </div>
+               </div>
+               <div class="new-products__table">
+                  <div class="new-products__table__header text-tran">
+                     <h3 style="margin: 0;">Sản phẩm mới nhất</h3>
+                  </div>
+                  <div class="new-products__table__body grid-clos-6">
+                     <a class="table__body__link" href="">
+                        <div class="table__body__box">
+                           <div class="body__box__img dis_flex">
+                              <div class="img__inside pos-rela">
+                                 <img class="table__img" src="/img/sp1.png" alt="Sữa Hikid dê Hàn Quốc tăng chiều cao ( 1- 9 tuổi)">
+                              </div>
+                           </div>
+                           <h4 class="body__box__text text-nm">Sữa Hikid dê Hàn Quốc tăng chiều cao ( 1- 9 tuổi)</h4>
+                           <p class="body__box__price">685,000 VNĐ </p>
+                        </div>
+                     </a>
+                     
+                     <a class="table__body__link" href="">
+                        <div class="table__body__box">
+                           <div class="body__box__img dis_flex">
+                              <div class="img__inside pos-rela">
+                                 <img class="table__img" src="/img/sp1.png" alt="Sữa Hikid dê Hàn Quốc tăng chiều cao ( 1- 9 tuổi)">
+                              </div>
+                           </div>
+                           <h4 class="body__box__text text-nm">Sữa Hikid dê Hàn Quốc tăng chiều cao ( 1- 9 tuổi)</h4>
+                           <p class="body__box__price">685,000 VNĐ </p>
+                        </div>
+                     </a>
+   
+                     <a class="table__body__link" href="">
+                        <div class="table__body__box">
+                           <div class="body__box__img dis_flex">
+                              <div class="img__inside pos-rela">
+                                 <img class="table__img" src="/img/sp1.png" alt="Sữa Hikid dê Hàn Quốc tăng chiều cao ( 1- 9 tuổi)">
+                              </div>
+                           </div>
+                           <h4 class="body__box__text text-nm">Sữa Hikid dê Hàn Quốc tăng chiều cao ( 1- 9 tuổi)</h4>
+                           <p class="body__box__price">685,000 VNĐ </p>
+                        </div>
+                     </a>
+   
+                     <a class="table__body__link" href="">
+                        <div class="table__body__box">
+                           <div class="body__box__img dis_flex">
+                              <div class="img__inside pos-rela">
+                                 <img class="table__img" src="/img/sp1.png" alt="Sữa Hikid dê Hàn Quốc tăng chiều cao ( 1- 9 tuổi)">
+                              </div>
+                           </div>
+                           <h4 class="body__box__text text-nm">Sữa Hikid dê Hàn Quốc tăng chiều cao ( 1- 9 tuổi)</h4>
+                           <p class="body__box__price">685,000 VNĐ </p>
+                        </div>
+                     </a>
+   
+                     <a class="table__body__link" href="">
+                        <div class="table__body__box">
+                           <div class="body__box__img dis_flex">
+                              <div class="img__inside pos-rela">
+                                 <img class="table__img" src="/img/sp1.png" alt="Sữa Hikid dê Hàn Quốc tăng chiều cao ( 1- 9 tuổi)">
+                              </div>
+                           </div>
+                           <h4 class="body__box__text text-nm">Sữa Hikid dê Hàn Quốc tăng chiều cao ( 1- 9 tuổi)</h4>
+                           <p class="body__box__price">685,000 VNĐ </p>
+                        </div>
+                     </a>
+   
+                     <a class="table__body__link" href="">
+                        <div class="table__body__box">
+                           <div class="body__box__img dis_flex">
+                              <div class="img__inside pos-rela">
+                                 <img class="table__img" src="/img/sp1.png" alt="Sữa Hikid dê Hàn Quốc tăng chiều cao ( 1- 9 tuổi)">
+                              </div>
+                           </div>
+                           <h4 class="body__box__text text-nm">Sữa Hikid dê Hàn Quốc tăng chiều cao ( 1- 9 tuổi)</h4>
+                           <p class="body__box__price">685,000 VNĐ </p>
+                        </div>
+                     </a>
+   
+                     <a class="table__body__link" href="">
+                        <div class="table__body__box">
+                           <div class="body__box__img dis_flex">
+                              <div class="img__inside pos-rela">
+                                 <img class="table__img" src="/img/sp1.png" alt="Sữa Hikid dê Hàn Quốc tăng chiều cao ( 1- 9 tuổi)">
+                              </div>
+                           </div>
+                           <h4 class="body__box__text text-nm">Sữa Hikid dê Hàn Quốc tăng chiều cao ( 1- 9 tuổi)</h4>
+                           <p class="body__box__price">685,000 VNĐ </p>
+                        </div>
+                     </a>
+   
+                     <a class="table__body__link" href="">
+                        <div class="table__body__box">
+                           <div class="body__box__img dis_flex">
+                              <div class="img__inside pos-rela">
+                                 <img class="table__img" src="/img/sp1.png" alt="Sữa Hikid dê Hàn Quốc tăng chiều cao ( 1- 9 tuổi)">
+                              </div>
+                           </div>
+                           <h4 class="body__box__text text-nm">Sữa Hikid dê Hàn Quốc tăng chiều cao ( 1- 9 tuổi)</h4>
+                           <p class="body__box__price">685,000 VNĐ </p>
+                        </div>
+                     </a>
+   
+                     <a class="table__body__link" href="">
+                        <div class="table__body__box">
+                           <div class="body__box__img dis_flex">
+                              <div class="img__inside pos-rela">
+                                 <img class="table__img" src="/img/sp1.png" alt="Sữa Hikid dê Hàn Quốc tăng chiều cao ( 1- 9 tuổi)">
+                              </div>
+                           </div>
+                           <h4 class="body__box__text text-nm">Sữa Hikid dê Hàn Quốc tăng chiều cao ( 1- 9 tuổi)</h4>
+                           <p class="body__box__price">685,000 VNĐ </p>
+                        </div>
+                     </a>
+   
+                     <a class="table__body__link" href="">
+                        <div class="table__body__box">
+                           <div class="body__box__img dis_flex">
+                              <div class="img__inside pos-rela">
+                                 <img class="table__img" src="/img/sp1.png" alt="Sữa Hikid dê Hàn Quốc tăng chiều cao ( 1- 9 tuổi)">
+                              </div>
+                           </div>
+                           <h4 class="body__box__text text-nm">Sữa Hikid dê Hàn Quốc tăng chiều cao ( 1- 9 tuổi)</h4>
+                           <p class="body__box__price">685,000 VNĐ </p>
+                        </div>
+                     </a>
+   
+                     <a class="table__body__link" href="">
+                        <div class="table__body__box">
+                           <div class="body__box__img dis_flex">
+                              <div class="img__inside pos-rela">
+                                 <img class="table__img" src="/img/sp1.png" alt="Sữa Hikid dê Hàn Quốc tăng chiều cao ( 1- 9 tuổi)">
+                              </div>
+                           </div>
+                           <h4 class="body__box__text text-nm">Sữa Hikid dê Hàn Quốc tăng chiều cao ( 1- 9 tuổi)</h4>
+                           <p class="body__box__price">685,000 VNĐ </p>
+                        </div>
+                     </a>
+   
+                     <a class="table__body__link" href="">
+                        <div class="table__body__box">
+                           <div class="body__box__img dis_flex">
+                              <div class="img__inside pos-rela">
+                                 <img class="table__img" src="/img/sp1.png" alt="Sữa Hikid dê Hàn Quốc tăng chiều cao ( 1- 9 tuổi)">
+                              </div>
+                           </div>
+                           <h4 class="body__box__text text-nm">Sữa Hikid dê Hàn Quốc tăng chiều cao ( 1- 9 tuổi)</h4>
+                           <p class="body__box__price">685,000 VNĐ </p>
+                        </div>
+                     </a>
+                  </div>
+                  <a class="new-products__table__btn__link" href="">
+                     <div class="new-products__table__btn dis_flex">
+                        <button class="btn text-tran">
+                           <span>Xem tất cả sản phẩm</span>
+                           <i class="btn__icon fa-solid fa-right-long"></i>
+                        </button>
+                     </div>
+                  </a>
+               </div>
+            </div>
+        </div>
+
+        <!-- FOOTER -->
+      <footer class="footer ">
+         <div class="footer__box w-full pos-rela">
+            <div class="footer__deal w-full">
+               <div class="footer__deal__box container pad-1-lr">
+                  <h2 class="deal__box__text">Nhập email của bạn để nhận được thông tin ưu đãi mới nhất của Hibeyo</h2>
+                  <div class="deal__box__input w-full dis_flex justi-center ">
+                     <form action="" class="deal__box__input__text dis_flex pos-rela ">          
+                        <input type="text" class="input__text w-full pd-t-b-2" placeholder="Nhập email của bạn">
+                        <div class="deal__box__input__bnt dis_flex pos-ab">
+                           <button type="submit" class="input__bnt pd-top-bot pd-l-r-3 text-tran ">Đăng ký</button>
+                        </div>
+                        <div class="deal__box__input__icon pos-ab dis_flex algin_center">
+                           <img class="input__icon w-full" src="https://hibeyo.vn/img/icon_singupemail.png" alt="">
+                        </div>
+                     </form>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="footer__link">
+            <div class="footer__link__box container pad-1-lr pd-t-b-2-25">
+               <div class="link__box grid-clos-3 ">
+                  <div class="link__box__all dis_flex">
+                     <a href="" class="link__box__inside dis_flex">
+                        <div class="link__inside text-tran algin_center dis_flex text-nm">
+                           <img src="https://hibeyo.vn/img/icon_right_footer.png" alt="" class="link__icon">
+                           <p>Chính sách bán hàng</p>
+                        </div>
+                     </a>
+                     <a href="" class="link__box__inside dis_flex">
+                        <div class="link__inside text-tran algin_center dis_flex text-nm">
+                           <img src="https://hibeyo.vn/img/icon_right_footer.png" alt="" class="link__icon">
+                           <p>Chính sách bán hàng</p>
+                        </div>
+                     </a>
+                  </div>
+                  <div class="link__box__all dis_flex">
+                     <a href="" class="link__box__inside dis_flex">
+                        <div class="link__inside text-tran algin_center dis_flex text-nm">
+                           <img src="https://hibeyo.vn/img/icon_right_footer.png" alt="" class="link__icon">
+                           <p>Chính sách bán hàng</p>
+                        </div>
+                     </a>
+                     <a href="" class="link__box__inside dis_flex">
+                        <div class="link__inside text-tran algin_center dis_flex text-nm">
+                           <img src="https://hibeyo.vn/img/icon_right_footer.png" alt="" class="link__icon">
+                           <p>Chính sách bán hàng</p>
+                        </div>
+                     </a>
+                  </div>
+                  <div class="link__box__all dis_flex">
+                     <a href="" class="link__box__inside dis_flex">
+                        <div class="link__inside text-tran algin_center dis_flex text-nm">
+                           <img src="https://hibeyo.vn/img/icon_right_footer.png" alt="" class="link__icon">
+                           <p>Chính sách bán hàng</p>
+                        </div>
+                     </a>
+                     <a href="" class="link__box__inside dis_flex">
+                        <div class="link__inside text-tran algin_center dis_flex text-nm">
+                           <img src="https://hibeyo.vn/img/icon_right_footer.png" alt="" class="link__icon">
+                           <p>Chính sách bán hàng</p>
+                        </div>
+                     </a>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="footer__contacts w-full">
+            <div class="footer__contacts__box pos-rela">
+               <div class="footer__contacts__logo dis_flex">
+                  <img src="/img/logo 3.png" alt="" class="logo__footer ">
+               </div>
+               <div class="footer__contacts__location container pad-1-lr text-nm">
+                  <p>Địa chỉ: Số 241 Hoàng Văn Thụ, Thái Nguyên</p>
+                  <p>Hotline: 0902 55 99 22</p>
+                  <p>Email: hibeyo241@gmail.com</p>
+                  <p>Giờ mở cửa: Từ 8:00 - 22:00 tất cả các ngày trong tuần</p>
+               </div>
+               <div class="footer__contacts__socail">
+                  
+               </div>
+               <div class="footer__contacts__line container pad-1-lr dis_flex">
+                  <img class="line__img" src="https://hibeyo.vn/img/img_footer.png" alt="">
+               </div>
+               <div class="footer__contacts__end">
+                  <p>© 2021 Hibeyo. All rights reserved.</p>
+               </div>
+            </div>
+         </div>
+      </footer>
+   </div>
+</body>
+</html>
