@@ -145,7 +145,8 @@
 }
 
 .slide__menu{
-    background-color: #edf4f7;
+    background-color: #fff;
+    padding: 1rem;
 }
 
 .slide__menu__header{
@@ -168,6 +169,21 @@
 
 .slide__slide{
     padding-top: 20px;
+    justify-content: space-between;
+    max-width: 100%;
+}
+
+.bnt__silde {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    border: 0 ;
+    background: transparent;
+    color: #edf4f7;
+}
+
+.bnt__2{
+    right: 0;
 }
 
 /* Banner */
