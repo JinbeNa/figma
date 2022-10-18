@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="/css/main.css">
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="/css/media.css">
+    <script src="/js/btnSigIn.js"></script>
     <meta name="viewport" content="width=device-width, inital-scale=1.0">
     <link rel="stylesheet" href="/font/fontawesome-free-6.1.2-web/css/all.min.css">
     <title>Thử nghiệm</title>
@@ -76,8 +77,8 @@
                <div class="header__up__user dis_flex algin_center">
                   <div class="user__log-sig">
                      <i class="fa-solid fa-user"></i>
-                     <button class="user__log-in box text">Đăng nhập</button>
-                     <button class="user__sig-in box text">Đăng ký</button>
+                     <button id="login__user" class="user__log-in box text" onclick="myFunction()">Đăng nhập</button>
+                     <button id="sigin__user" class="user__sig-in box text" onclick="mySigin()">Đăng ký</button>
                   </div>
                   <!-- User -->
                   <div class="user__cart dis_flex algin_center">
@@ -570,17 +571,17 @@
       </footer>
    </div>
 
-   <div class="modal dis_flex">
-      <div class="modal__overlay">
+   <div class="modal dis_flex" id="modal__box" >
+      <div class="modal__overlay" id="modal__overlay__box" onclick="myModal()">
 
       </div>
       <div class="modal__body">
-         <!-- Sig in / login -->
-         <div class="auth-form">
+         <!-- Sig in -->
+          <div class="auth-form tabcontent" id="Sigin" style="display: none;">
             <div class="auth-form__container">
                <div class="auth-form__header dis_flex">
                   <h3 class="auth-form__heading">Đăng ký</h3>
-                  <span class="auth-form__btn">Đăng nhập</span>
+                  <button class="auth-form__btn tablinks" onclick="openCity(event, 'Login')"s>Đăng nhập</button>
                </div>
                
                <div class="auth-form__form">
@@ -588,15 +589,56 @@
                      <input type="text" class="auth-form__input" placeholder="Email của bạn">
                   </div>
                   <div class="auth-form__gr">
-                     <input type="text" class="auth-form__input" placeholder="Mật khẩu của bạn">
+                     <input type="password" class="auth-form__input" placeholder="Mật khẩu của bạn">
                   </div>
                   <div class="auth-form__gr">
-                     <input type="text" class="auth-form__input" placeholder="Nhập lại mật khẩu">
+                     <input type="password" class="auth-form__input" placeholder="Nhập lại mật khẩu">
                   </div>
                </div>
                <div class="auth-form__control">
                   <button type="button" class="bnt bnt-back bnt--back">TRỞ LẠI</button>
                   <button type="button" class="bnt bnt--primary">ĐĂNG KÝ</button>
+               </div>
+            </div>
+            <div class="auth-form__socials">
+               <a href="" class="bnt bnt--with-icon fb">
+                  <i class="social__icon icon--fb fa-brands fa-square-facebook"></i>
+                  <span class="socials--title">Kết nối với Facebook</span>
+               </a>
+               <a href="" class="bnt bnt--with-icon gg">
+                  <i class="social__icon icon--gg fa-brands fa-google"></i>
+                  <span class="socials--title">Kết nối với Google</span>
+               </a>
+            </div>
+         </div> 
+
+         <!-- Log in -->
+         <div class="auth-form tabcontent" id="Login" style="display: none;">
+            <div class="auth-form__container">
+               <div class="auth-form__header dis_flex">
+                  <h3 class="auth-form__heading">Đăng nhập</h3>
+                  <button class="auth-form__btn tablinks" onclick="openCity(event, 'Sigin')" >Đăng ký</button>
+               </div>
+               
+               <div class="auth-form__form">
+                  <div class="auth-form__gr">
+                     <input type="text" class="auth-form__input" placeholder="Email của bạn">
+                  </div>
+                  <div class="auth-form__gr">
+                     <input type="password" class="auth-form__input" placeholder="Mật khẩu của bạn">
+                  </div>
+               </div>
+
+               <div class="auth-form__aside">
+                  <div class="auth-form__help">
+                     <a href="" class="auth-form__help-link auth-form__help-ps">Quên mật khẩu</a>
+                     <span class="auth-form__help-space"></span>
+                     <a href="" class="auth-form__help-link auth-form__help-text">Cần trợ giúp ?</a>
+                  </div>
+               </div>
+               <div class="auth-form__control">
+                  <button type="button" class="bnt bnt-back bnt--back">TRỞ LẠI</button>
+                  <button type="button" class="bnt bnt--primary">ĐĂNG NHẬP</button>
                </div>
             </div>
             <div class="auth-form__socials">
