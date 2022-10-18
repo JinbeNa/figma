@@ -99,6 +99,7 @@
 .user__log-in{
     box-sizing: border-box;
     border-right: 1px solid #fff !important;
+    cursor: pointer;
 }
 
 .icon__cart{
@@ -145,7 +146,8 @@
 }
 
 .slide__menu{
-    background-color: #edf4f7;
+    background-color: #fff;
+    padding: 1rem;
 }
 
 .slide__menu__header{
@@ -168,6 +170,21 @@
 
 .slide__slide{
     padding-top: 20px;
+    justify-content: space-between;
+    max-width: 100%;
+}
+
+.bnt__silde {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    border: 0 ;
+    background: transparent;
+    color: #edf4f7;
+}
+
+.bnt__2{
+    right: 0;
 }
 
 /* Banner */
@@ -655,4 +672,33 @@
 .gg{
     color: #666;
     background-color: #fff;
+}
+
+.auth-form__aside{
+    margin-top: 16px;
+}
+
+.auth-form__help{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.auth-form__help-link{
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.auth-form__help-space{
+    display: block;
+    border-left: 1px solid #dbdbdb;
+    margin: 0 16px;
+}
+
+.auth-form__help-ps{
+    color: #0098d2;
+    cursor: pointer;
+}
+
+.auth-form__help-text{
+    color: #939393;
 }
