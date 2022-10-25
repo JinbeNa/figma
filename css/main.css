@@ -3,8 +3,12 @@
     position: sticky;
     height: 120px;
     top: 0;
-    z-index: 20;
+    z-index: 10;
     margin-bottom: 1.6rem;
+}
+
+.header__off{
+    position: unset;
 }
 
 .header__up{
@@ -48,7 +52,7 @@
     width: 290px;
     left: 0;
     top:44px;
-    z-index: 20;
+    /* z-index: 20; */
 }
 
 /* Search-bar */
@@ -633,9 +637,16 @@
 }
 
 /* Authen modal */
+.modal__overlay{
+    z-index: 20;
+}
+
+.modal__body{
+    z-index: 20;
+}
+
 .auth-form{
     width: 600px;
-    z-index: 1000;
 }
 
 .auth-form__container{

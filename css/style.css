@@ -27,6 +27,10 @@ body{
     margin: 0;
 }
 
+.body__hidden{
+    overflow: hidden;
+}
+
 .border-col-1{
     border-left-color: #00ADEF;
 }
