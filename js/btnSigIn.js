@@ -1,3 +1,7 @@
+function dropDown() {
+  document.querySelector(".list__menu__box").classList.toggle("list__menu__box__show");
+}
+
 function myFunction() {
   document.getElementById("modal__box").style.display = "flex";
   document.getElementById("Sigin").style.display = "none";
