@@ -6,6 +6,7 @@ function myFunction() {
   document.getElementById("modal__box").style.display = "flex";
   document.getElementById("Sigin").style.display = "none";
   document.getElementById("Login").style.display = "block";
+  document.getElementById("Login").style.display = "";
 } 
 
 function myModal() {

@@ -633,9 +633,12 @@
 }
 
 /* Authen modal */
+.modal__overlay{
+    
+}
+
 .auth-form{
     width: 600px;
-    z-index: 1000;
 }
 
 .auth-form__container{
