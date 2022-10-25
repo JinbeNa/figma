@@ -1,4 +1,6 @@
-
+ul{
+    padding: 0  ;
+}
 p{
     margin: 0;
 }
@@ -323,6 +325,8 @@ body{
         transform: scale(1);
     }
 }
+
+/* @keyframes  */
 
 /* Modal */
 .modal{

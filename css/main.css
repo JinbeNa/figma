@@ -130,7 +130,6 @@
     justify-content: space-between;
     margin-top: 0;
     flex-direction: row;
-    padding-top: 16px;
 }
 
 .list__link{
@@ -138,6 +137,48 @@
     color: #fff;
     
 }
+
+/* Menu */
+.menu__box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: transparent;
+    border: 0;
+}
+
+.menu__text{
+    padding-left: 10px;
+    color: #fff;
+    font-weight: 700;
+}
+
+.icon__btn{
+    color: #fff;
+}
+
+.menu__btn{
+    padding: 0 !important;
+    width: 22% !important;
+}
+
+.list__menu__box{
+  display: none;
+}
+
+.list__menu__box__show{
+    display: block;
+}
+
+.list{
+    padding-top: 16px;
+}
+
+.menu__box__btn{
+    padding: 14px 0;
+}
+
 /* Slide */
 
 .slide{
@@ -160,12 +201,15 @@
 .slide__menu__list{
     padding: 0;
     margin: 0;
+    background-color: #eaeaea;
+    
 }
 
 .menu-list{
     list-style: none;
     border-bottom: 1px solid rgb(156, 153, 153);
     border-left: 4px solid rgb(156, 153, 153);
+    color: #000;
 }
 
 .slide__slide{
@@ -515,6 +559,7 @@
     top: 0;
     left: 0;
     height: 100%;
+    max-width: 50px;
 }
 
 .footer__link{
@@ -532,7 +577,7 @@
 
 .link__box__inside{
     text-decoration: none;
-    justify-content: space-between;
+    justify-content: flex-end;
     color: #fff;
 }
 
@@ -590,6 +635,7 @@
 /* Authen modal */
 .auth-form{
     width: 600px;
+    z-index: 1000;
 }
 
 .auth-form__container{
