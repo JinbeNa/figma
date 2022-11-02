@@ -202,11 +202,15 @@
     padding-left: 6px;
 }
 
+.list__menu__box{
+    z-index: 20;
+}
+
 .slide__menu__list{
     padding: 0;
     margin: 0;
     background-color: #eaeaea;
-    
+    z-index: 20;
 }
 
 .menu-list{
@@ -637,12 +641,16 @@
 }
 
 /* Authen modal */
+.modal{
+    display: none;
+}
+
 .modal__overlay{
-    z-index: 20;
+    z-index: 50;
 }
 
 .modal__body{
-    z-index: 20;
+    z-index: 50;
 }
 
 .auth-form{

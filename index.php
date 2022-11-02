@@ -1,22 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <!-- <meta charset="UTF-8">
+   <!-- <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;400&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="/css/main.css">
-    <link rel="stylesheet" href="/css/style.css">
-    <link rel="stylesheet" href="/css/media.css">
-    <script src="/js/btnSigIn.js"></script>
-    <meta name="viewport" content="width=device-width, inital-scale=1.0">
-    <link rel="stylesheet" href="/font/fontawesome-free-6.1.2-web/css/all.min.css">
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
-    <title>Thử nghiệm</title>
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;400&display=swap" rel="stylesheet">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link rel="stylesheet" href="./css/main.css">
+   <link rel="stylesheet" href="./css/style.css">
+   <link rel="stylesheet" href="./css/media.css">
+   <link rel="stylesheet" href="./img">
+   <script src="./js/btnSigIn.js"></script>
+   <meta name="viewport" content="width=device-width, inital-scale=1.0">
+   <link rel="stylesheet" href="./font/fontawesome-free-6.1.2-web/css/all.min.css">
+   <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+   <title>Thử nghiệm</title>
 </head>
+
 <body>
    <div class="all">
       <!-- Header -->
@@ -32,22 +35,22 @@
                         <div class="menu-390__list">
                            <ul class="menu-390__list__item pad-1-lr show-menu">
                               <li class="menu-390__item h-full text-tran">
-                                 <a  class="menu-390__link h-full dis_flex pd-tb-75" href="">Trang chủ</a>
+                                 <a class="menu-390__link h-full dis_flex pd-tb-75" href="">Trang chủ</a>
                               </li>
                               <li class="menu-390__item h-full text-tran">
-                                 <a  class="menu-390__link h-full dis_flex pd-tb-75" href="">tin tức</a>
+                                 <a class="menu-390__link h-full dis_flex pd-tb-75" href="">tin tức</a>
                               </li>
                               <li class="menu-390__item h-full text-tran">
-                                 <a  class="menu-390__link h-full dis_flex pd-tb-75" href="">giới thiệu</a>
+                                 <a class="menu-390__link h-full dis_flex pd-tb-75" href="">giới thiệu</a>
                               </li>
                               <li class="menu-390__item h-full text-tran">
-                                 <a  class="menu-390__link h-full dis_flex pd-tb-75" href="">khuyến mãi</a>
+                                 <a class="menu-390__link h-full dis_flex pd-tb-75" href="">khuyến mãi</a>
                               </li>
                               <li class="menu-390__item h-full text-tran">
-                                 <a  class="menu-390__link h-full dis_flex pd-tb-75" href="">sản phẩm</a>
+                                 <a class="menu-390__link h-full dis_flex pd-tb-75" href="">sản phẩm</a>
                               </li>
                               <li class="menu-390__item h-full text-tran">
-                                 <a  class="menu-390__link h-full dis_flex pd-tb-75" href="">liên hệ</a>
+                                 <a class="menu-390__link h-full dis_flex pd-tb-75" href="">liên hệ</a>
                               </li>
                            </ul>
                         </div>
@@ -58,9 +61,9 @@
                <div class="header__up__logo dis_flex">
                   <div class="logo__img">
                      <a href="" class="logo__img--outside">
-                        <img src="/img/logo2 1.png" alt="logo" class="logo__img--inside">
+                        <img src="./img/logo2 1.png" alt="logo" class="logo__img--inside">
                      </a>
-                     <img src="/img/Frame.png" alt="logo down" class="logo__img__dow">
+                     <img src="./img/Frame.png" alt="logo down" class="logo__img__dow">
                   </div>
                </div>
                <!-- Search-bar -->
@@ -75,7 +78,7 @@
                      <select class="search-bar__category-slug" name="" id=""></select>
                   </div> -->
                </div>
-   
+
                <div class="header__up__user dis_flex algin_center">
                   <div class="user__log-sig">
                      <i class="fa-solid fa-user"></i>
@@ -92,10 +95,10 @@
          </div>
 
          <div class="header__dow">
-           <div class="header__dow__nav-bar container ">
+            <div class="header__dow__nav-bar container ">
                <div class="nav-bar">
                   <ul class="nav-bar__list dis_flex">
-                     <li class="list text text-tran grid__column-4 menu__btn"  data-toggle="dropdown">
+                     <li class="list text text-tran grid__column-4 menu__btn" data-toggle="dropdown">
                         <button class="menu__box" onclick="dropDown()">
                            <div class="menu__box__btn">
                               <i class="fa-solid fa-bars icon__btn"></i>
@@ -117,72 +120,72 @@
                         </div>
                      </li>
                      <li class="list text text-tran">
-                        <a class="list__link" href="/">Trang chủ</a> 
+                        <a class="list__link" href="/">Trang chủ</a>
                      </li>
                      <li class="list text text-tran">
-                        <a class="list__link" href="">Tin tức</a> 
+                        <a class="list__link" href="">Tin tức</a>
                      </li>
                      <li class="list text text-tran">
-                        <a class="list__link" href="">Giới thiệu</a> 
+                        <a class="list__link" href="">Giới thiệu</a>
                      </li>
                      <li class="list text text-tran">
-                        <a class="list__link" href="">khuyến mãi</a> 
+                        <a class="list__link" href="">khuyến mãi</a>
                      </li>
                      <li class="list text text-tran">
-                        <a class="list__link" href="/html/products.html">sản phẩm</a> 
+                        <a class="list__link" href="/html/products.html">sản phẩm</a>
                      </li>
                      <li class="list text text-tran">
-                        <a class="list__link border__end" href="">liên hệ</a> 
+                        <a class="list__link border__end" href="">liên hệ</a>
                      </li>
                   </ul>
                </div>
-           </div>
+            </div>
          </div>
       </div>
 
       <div class=>
          <div class="container ">
             <!-- <div class="grid__row grid__app " > -->
-               <div class="slide dis_flex">
-                  <!-- Menu -->
-                  <div class="slide__grid grid__column-4">
-                     
-                  </div>
-                  <!-- Silde -->
-                  <div class="grid__column-8">
-                     <div class="slide__slide dis_flex pos-rela">
-                        <button class="bnt__silde bnt__1" id="priv">
-                           <i class="icon__bnt__silde fa-solid fa-circle-chevron-left"></i>
-                        </button>
-                        <div class="slide__slide__img">
-                           <img src="/img/Group 192.png" class="w-full" alt="">
-                        </div>
-                        <button class="bnt__silde  bnt__2" id="next">
-                           <i class="icon__bnt__silde fa-solid fa-circle-chevron-right"></i>
-                        </button>
+            <div class="slide dis_flex">
+               <!-- Menu -->
+               <div class="slide__grid grid__column-4">
+
+               </div>
+               <!-- Silde -->
+               <div class="grid__column-8">
+                  <div class="slide__slide dis_flex pos-rela">
+                     <button class="bnt__silde bnt__1" id="priv">
+                        <i class="icon__bnt__silde fa-solid fa-circle-chevron-left"></i>
+                     </button>
+                     <div class="slide__slide__img">
+                        <img src="./img/Group 192.png" class="w-full" alt="">
                      </div>
+                     <button class="bnt__silde  bnt__2" id="next">
+                        <i class="icon__bnt__silde fa-solid fa-circle-chevron-right"></i>
+                     </button>
                   </div>
                </div>
+            </div>
             <!-- </div> -->
             <!-- Banner -->
             <div class="banner container ">
                <div class="banner__img dis_flex  ">
                   <div class="img__banner">
-                     <img class="img__banner__inside" src="/img/1.png" alt="">
+                     <img class="img__banner__inside" src="./img/1.png" alt="">
                   </div>
                   <div class="img__banner">
-                     <img class="img__banner__inside" src="/img/2.png" alt="">
+                     <img class="img__banner__inside" src="./img/2.png" alt="">
                   </div>
                   <div class="img__banner">
-                     <img class="img__banner__inside" src="/img/3.png" alt="">
+                     <img class="img__banner__inside" src="./img/3.png" alt="">
                   </div>
                </div>
                <div class="banner__img-longer container w-full">
-                  <div  class="img-longer" style="display: flex; justify-content: center;">
-                     <img class="img__longer loca-1" src="/img/bnn1.png" alt="banner img">
-                     <img class="img__longer loca-2" src="/img/bnn4.png" alt="banner img">
-                     <img class="img__longer loca-3" src="/img/bnn2.png" alt="banner img">
-                     <img class="img__longer loca-4" src="/img/bnn3.png" alt="banner img">
+                  <div class="img-longer" style="display: flex; justify-content: center;">
+                     <img class="img__longer loca-1" src="./img/bnn1.png" alt="banner img">
+                     <img class="img__longer loca-2" src="./img/bnn4.png" alt="banner img">
+                     <img class="img__longer loca-3" src="./img/bnn2.png" alt="banner img">
+                     <img class="img__longer loca-4" src="./img/bnn3.png" alt="banner img">
                   </div>
                </div>
             </div>
@@ -191,18 +194,18 @@
          <div class="best-sell  ">
             <div class="best-sell__box container pad-1-lr  ">
                <div class="best-sell__box__header">
-                  <img class="box__header__img" src="/img/best-sell.png" alt="">
+                  <img class="box__header__img" src="./img/best-sell.png" alt="">
                </div>
                <div class="best-sell__box__items">
                   <div class="best-sell__box__items__list">
                      <div class="item-1 ">
                         <a href="" class="item-1_info">
-                           
+
                         </a>
                      </div>
                      <div class="item-2">
                         <a href="" class="item-2_info">
-                           
+
                         </a>
                      </div>
                   </div>
@@ -215,7 +218,7 @@
          <div class="new-products container pad-1-lr">
             <div class="new-products__header container pad-1-lr">
                <div class="new-products__header__img w-full dis_flex">
-                  <img class="header__img" src="/img/logo_down.png" alt="">
+                  <img class="header__img" src="./img/logo_down.png" alt="">
                </div>
             </div>
             <div class="new-products__table">
@@ -227,19 +230,7 @@
                      <div class="table__body__box">
                         <div class="body__box__img dis_flex">
                            <div class="img__inside pos-rela">
-                              <img class="table__img" src="/img/sp1.png" alt="Sữa Hikid dê Hàn Quốc tăng chiều cao ( 1- 9 tuổi)">
-                           </div>
-                        </div>
-                        <h4 class="body__box__text text-nm">Sữa Hikid dê Hàn Quốc tăng chiều cao ( 1- 9 tuổi)</h4>
-                        <p class="body__box__price">685,000 VNĐ </p>
-                     </div>
-                  </a>
-                  
-                  <a class="table__body__link" href="">
-                     <div class="table__body__box">
-                        <div class="body__box__img dis_flex">
-                           <div class="img__inside pos-rela">
-                              <img class="table__img" src="/img/sp1.png" alt="Sữa Hikid dê Hàn Quốc tăng chiều cao ( 1- 9 tuổi)">
+                              <img class="table__img" src="./img/sp1.png" alt="Sữa Hikid dê Hàn Quốc tăng chiều cao ( 1- 9 tuổi)">
                            </div>
                         </div>
                         <h4 class="body__box__text text-nm">Sữa Hikid dê Hàn Quốc tăng chiều cao ( 1- 9 tuổi)</h4>
@@ -251,7 +242,7 @@
                      <div class="table__body__box">
                         <div class="body__box__img dis_flex">
                            <div class="img__inside pos-rela">
-                              <img class="table__img" src="/img/sp1.png" alt="Sữa Hikid dê Hàn Quốc tăng chiều cao ( 1- 9 tuổi)">
+                              <img class="table__img" src="./img/sp1.png" alt="Sữa Hikid dê Hàn Quốc tăng chiều cao ( 1- 9 tuổi)">
                            </div>
                         </div>
                         <h4 class="body__box__text text-nm">Sữa Hikid dê Hàn Quốc tăng chiều cao ( 1- 9 tuổi)</h4>
@@ -263,7 +254,7 @@
                      <div class="table__body__box">
                         <div class="body__box__img dis_flex">
                            <div class="img__inside pos-rela">
-                              <img class="table__img" src="/img/sp1.png" alt="Sữa Hikid dê Hàn Quốc tăng chiều cao ( 1- 9 tuổi)">
+                              <img class="table__img" src="./img/sp1.png" alt="Sữa Hikid dê Hàn Quốc tăng chiều cao ( 1- 9 tuổi)">
                            </div>
                         </div>
                         <h4 class="body__box__text text-nm">Sữa Hikid dê Hàn Quốc tăng chiều cao ( 1- 9 tuổi)</h4>
@@ -275,7 +266,7 @@
                      <div class="table__body__box">
                         <div class="body__box__img dis_flex">
                            <div class="img__inside pos-rela">
-                              <img class="table__img" src="/img/sp1.png" alt="Sữa Hikid dê Hàn Quốc tăng chiều cao ( 1- 9 tuổi)">
+                              <img class="table__img" src="./img/sp1.png" alt="Sữa Hikid dê Hàn Quốc tăng chiều cao ( 1- 9 tuổi)">
                            </div>
                         </div>
                         <h4 class="body__box__text text-nm">Sữa Hikid dê Hàn Quốc tăng chiều cao ( 1- 9 tuổi)</h4>
@@ -287,7 +278,7 @@
                      <div class="table__body__box">
                         <div class="body__box__img dis_flex">
                            <div class="img__inside pos-rela">
-                              <img class="table__img" src="/img/sp1.png" alt="Sữa Hikid dê Hàn Quốc tăng chiều cao ( 1- 9 tuổi)">
+                              <img class="table__img" src="./img/sp1.png" alt="Sữa Hikid dê Hàn Quốc tăng chiều cao ( 1- 9 tuổi)">
                            </div>
                         </div>
                         <h4 class="body__box__text text-nm">Sữa Hikid dê Hàn Quốc tăng chiều cao ( 1- 9 tuổi)</h4>
@@ -299,7 +290,7 @@
                      <div class="table__body__box">
                         <div class="body__box__img dis_flex">
                            <div class="img__inside pos-rela">
-                              <img class="table__img" src="/img/sp1.png" alt="Sữa Hikid dê Hàn Quốc tăng chiều cao ( 1- 9 tuổi)">
+                              <img class="table__img" src="./img/sp1.png" alt="Sữa Hikid dê Hàn Quốc tăng chiều cao ( 1- 9 tuổi)">
                            </div>
                         </div>
                         <h4 class="body__box__text text-nm">Sữa Hikid dê Hàn Quốc tăng chiều cao ( 1- 9 tuổi)</h4>
@@ -311,7 +302,7 @@
                      <div class="table__body__box">
                         <div class="body__box__img dis_flex">
                            <div class="img__inside pos-rela">
-                              <img class="table__img" src="/img/sp1.png" alt="Sữa Hikid dê Hàn Quốc tăng chiều cao ( 1- 9 tuổi)">
+                              <img class="table__img" src="./img/sp1.png" alt="Sữa Hikid dê Hàn Quốc tăng chiều cao ( 1- 9 tuổi)">
                            </div>
                         </div>
                         <h4 class="body__box__text text-nm">Sữa Hikid dê Hàn Quốc tăng chiều cao ( 1- 9 tuổi)</h4>
@@ -323,7 +314,7 @@
                      <div class="table__body__box">
                         <div class="body__box__img dis_flex">
                            <div class="img__inside pos-rela">
-                              <img class="table__img" src="/img/sp1.png" alt="Sữa Hikid dê Hàn Quốc tăng chiều cao ( 1- 9 tuổi)">
+                              <img class="table__img" src="./img/sp1.png" alt="Sữa Hikid dê Hàn Quốc tăng chiều cao ( 1- 9 tuổi)">
                            </div>
                         </div>
                         <h4 class="body__box__text text-nm">Sữa Hikid dê Hàn Quốc tăng chiều cao ( 1- 9 tuổi)</h4>
@@ -335,7 +326,7 @@
                      <div class="table__body__box">
                         <div class="body__box__img dis_flex">
                            <div class="img__inside pos-rela">
-                              <img class="table__img" src="/img/sp1.png" alt="Sữa Hikid dê Hàn Quốc tăng chiều cao ( 1- 9 tuổi)">
+                              <img class="table__img" src="./img/sp1.png" alt="Sữa Hikid dê Hàn Quốc tăng chiều cao ( 1- 9 tuổi)">
                            </div>
                         </div>
                         <h4 class="body__box__text text-nm">Sữa Hikid dê Hàn Quốc tăng chiều cao ( 1- 9 tuổi)</h4>
@@ -347,7 +338,7 @@
                      <div class="table__body__box">
                         <div class="body__box__img dis_flex">
                            <div class="img__inside pos-rela">
-                              <img class="table__img" src="/img/sp1.png" alt="Sữa Hikid dê Hàn Quốc tăng chiều cao ( 1- 9 tuổi)">
+                              <img class="table__img" src="./img/sp1.png" alt="Sữa Hikid dê Hàn Quốc tăng chiều cao ( 1- 9 tuổi)">
                            </div>
                         </div>
                         <h4 class="body__box__text text-nm">Sữa Hikid dê Hàn Quốc tăng chiều cao ( 1- 9 tuổi)</h4>
@@ -359,7 +350,19 @@
                      <div class="table__body__box">
                         <div class="body__box__img dis_flex">
                            <div class="img__inside pos-rela">
-                              <img class="table__img" src="/img/sp1.png" alt="Sữa Hikid dê Hàn Quốc tăng chiều cao ( 1- 9 tuổi)">
+                              <img class="table__img" src="./img/sp1.png" alt="Sữa Hikid dê Hàn Quốc tăng chiều cao ( 1- 9 tuổi)">
+                           </div>
+                        </div>
+                        <h4 class="body__box__text text-nm">Sữa Hikid dê Hàn Quốc tăng chiều cao ( 1- 9 tuổi)</h4>
+                        <p class="body__box__price">685,000 VNĐ </p>
+                     </div>
+                  </a>
+
+                  <a class="table__body__link" href="">
+                     <div class="table__body__box">
+                        <div class="body__box__img dis_flex">
+                           <div class="img__inside pos-rela">
+                              <img class="table__img" src="./img/sp1.png" alt="Sữa Hikid dê Hàn Quốc tăng chiều cao ( 1- 9 tuổi)">
                            </div>
                         </div>
                         <h4 class="body__box__text text-nm">Sữa Hikid dê Hàn Quốc tăng chiều cao ( 1- 9 tuổi)</h4>
@@ -382,7 +385,7 @@
             <div class="news__box container pad-1-lr pos-rela ">
                <div class="news__box__inside">
                   <div class="box__inside pos-ab">
-                     <img class="news__img" src="/img/news.png" alt="">
+                     <img class="news__img" src="./img/news.png" alt="">
                   </div>
                   <a href="" class="news__more pos-ab">
                      <div class="news__more__box dis_flex justi-center">
@@ -396,7 +399,7 @@
                      <div class="box__tag__all">
                         <a class="box__tag__link" href="">
                            <div class="box__tag__img">
-                              <img class="tag__img w-full" src="/img/news1.png" alt="">
+                              <img class="tag__img w-full" src="./img/news1.png" alt="">
                            </div>
                            <div class="box__tag__text w-full pos-rela">
                               <div class="box__tag__text__inside pos-rela w-full">
@@ -407,8 +410,8 @@
                                     <div class="tag__text__body">
                                        <p class="text__body">
                                           Viên sữa bổ sung canxi Bio Island Milk Calcium Bone Care
-                                          được điều chế dựa trên nguồn nguyên liệu 
-                                          chính là sữa bò nguyên chất, 
+                                          được điều chế dựa trên nguồn nguyên liệu
+                                          chính là sữa bò nguyên chất,
                                           chính vì vậy viên có hương vị sữa bò,
                                           rất thơm và dễ uống.
                                        </p>
@@ -425,7 +428,7 @@
                      <div class="box__tag__all">
                         <a class="box__tag__link" href="">
                            <div class="box__tag__img">
-                              <img class="tag__img w-full" src="/img/news1.png" alt="">
+                              <img class="tag__img w-full" src="./img/news1.png" alt="">
                            </div>
                            <div class="box__tag__text w-full pos-rela">
                               <div class="box__tag__text__inside pos-rela w-full">
@@ -436,8 +439,8 @@
                                     <div class="tag__text__body">
                                        <p class="text__body">
                                           Viên sữa bổ sung canxi Bio Island Milk Calcium Bone Care
-                                          được điều chế dựa trên nguồn nguyên liệu 
-                                          chính là sữa bò nguyên chất, 
+                                          được điều chế dựa trên nguồn nguyên liệu
+                                          chính là sữa bò nguyên chất,
                                           chính vì vậy viên có hương vị sữa bò,
                                           rất thơm và dễ uống.
                                        </p>
@@ -454,7 +457,7 @@
                      <div class="box__tag__all">
                         <a class="box__tag__link" href="">
                            <div class="box__tag__img">
-                              <img class="tag__img w-full" src="/img/news1.png" alt="">
+                              <img class="tag__img w-full" src="./img/news1.png" alt="">
                            </div>
                            <div class="box__tag__text w-full pos-rela">
                               <div class="box__tag__text__inside pos-rela w-full">
@@ -465,8 +468,8 @@
                                     <div class="tag__text__body">
                                        <p class="text__body">
                                           Viên sữa bổ sung canxi Bio Island Milk Calcium Bone Care
-                                          được điều chế dựa trên nguồn nguyên liệu 
-                                          chính là sữa bò nguyên chất, 
+                                          được điều chế dựa trên nguồn nguyên liệu
+                                          chính là sữa bò nguyên chất,
                                           chính vì vậy viên có hương vị sữa bò,
                                           rất thơm và dễ uống.
                                        </p>
@@ -492,13 +495,13 @@
                <div class="footer__deal__box container pad-1-lr">
                   <h2 class="deal__box__text">Nhập email của bạn để nhận được thông tin ưu đãi mới nhất của Hibeyo</h2>
                   <div class="deal__box__input w-full dis_flex justi-center ">
-                     <form action="" class="deal__box__input__text dis_flex pos-rela ">          
+                     <form action="" class="deal__box__input__text dis_flex pos-rela ">
                         <input type="text" class="input__text w-full pd-t-b-2" placeholder="Nhập email của bạn">
                         <div class="deal__box__input__bnt dis_flex pos-ab">
                            <button type="submit" class="input__bnt pd-top-bot pd-l-r-3 text-tran ">Đăng ký</button>
                         </div>
                         <div class="deal__box__input__icon pos-ab dis_flex algin_center">
-                           <img class="input__icon w-full" src="/img/email.png" alt="">
+                           <img class="input__icon w-full" src="./img/email.png" alt="">
                         </div>
                      </form>
                   </div>
@@ -511,27 +514,13 @@
                   <div class="link__box__all dis_flex">
                      <a href="" class="link__box__inside dis_flex">
                         <div class="link__inside text-tran algin_center dis_flex text-nm">
-                           <img src="https://hibeyo.vn/img/icon_right_footer.png" alt="" class="link__icon">
+                           <img src="https://hibeyo.vn./img/icon_right_footer.png" alt="" class="link__icon">
                            <p>Chính sách bán hàng</p>
                         </div>
                      </a>
                      <a href="" class="link__box__inside dis_flex">
                         <div class="link__inside text-tran algin_center dis_flex text-nm">
-                           <img src="https://hibeyo.vn/img/icon_right_footer.png" alt="" class="link__icon">
-                           <p>Chính sách bán hàng</p>
-                        </div>
-                     </a>
-                  </div>
-                  <div class="link__box__all dis_flex">
-                     <a href="" class="link__box__inside dis_flex">
-                        <div class="link__inside text-tran algin_center dis_flex text-nm">
-                           <img src="https://hibeyo.vn/img/icon_right_footer.png" alt="" class="link__icon">
-                           <p>Chính sách bán hàng</p>
-                        </div>
-                     </a>
-                     <a href="" class="link__box__inside dis_flex">
-                        <div class="link__inside text-tran algin_center dis_flex text-nm">
-                           <img src="https://hibeyo.vn/img/icon_right_footer.png" alt="" class="link__icon">
+                           <img src="https://hibeyo.vn./img/icon_right_footer.png" alt="" class="link__icon">
                            <p>Chính sách bán hàng</p>
                         </div>
                      </a>
@@ -539,13 +528,27 @@
                   <div class="link__box__all dis_flex">
                      <a href="" class="link__box__inside dis_flex">
                         <div class="link__inside text-tran algin_center dis_flex text-nm">
-                           <img src="https://hibeyo.vn/img/icon_right_footer.png" alt="" class="link__icon">
+                           <img src="https://hibeyo.vn./img/icon_right_footer.png" alt="" class="link__icon">
                            <p>Chính sách bán hàng</p>
                         </div>
                      </a>
                      <a href="" class="link__box__inside dis_flex">
                         <div class="link__inside text-tran algin_center dis_flex text-nm">
-                           <img src="https://hibeyo.vn/img/icon_right_footer.png" alt="" class="link__icon">
+                           <img src="https://hibeyo.vn./img/icon_right_footer.png" alt="" class="link__icon">
+                           <p>Chính sách bán hàng</p>
+                        </div>
+                     </a>
+                  </div>
+                  <div class="link__box__all dis_flex">
+                     <a href="" class="link__box__inside dis_flex">
+                        <div class="link__inside text-tran algin_center dis_flex text-nm">
+                           <img src="https://hibeyo.vn./img/icon_right_footer.png" alt="" class="link__icon">
+                           <p>Chính sách bán hàng</p>
+                        </div>
+                     </a>
+                     <a href="" class="link__box__inside dis_flex">
+                        <div class="link__inside text-tran algin_center dis_flex text-nm">
+                           <img src="https://hibeyo.vn./img/icon_right_footer.png" alt="" class="link__icon">
                            <p>Chính sách bán hàng</p>
                         </div>
                      </a>
@@ -556,7 +559,7 @@
          <div class="footer__contacts w-full">
             <div class="footer__contacts__box pos-rela">
                <div class="footer__contacts__logo dis_flex">
-                  <img src="/img/logo 3.png" alt="" class="logo__footer ">
+                  <img src="./img/logo 3.png" alt="" class="logo__footer ">
                </div>
                <div class="footer__contacts__location container pad-1-lr text-nm">
                   <p>Địa chỉ: Số 241 Hoàng Văn Thụ, Thái Nguyên</p>
@@ -565,10 +568,10 @@
                   <p>Giờ mở cửa: Từ 8:00 - 22:00 tất cả các ngày trong tuần</p>
                </div>
                <div class="footer__contacts__socail">
-                  
+
                </div>
                <div class="footer__contacts__line container pad-1-lr dis_flex">
-                  <img class="line__img" src="https://hibeyo.vn/img/img_footer.png" alt="">
+                  <img class="line__img" src="https://hibeyo.vn./img./img_footer.png" alt="">
                </div>
                <div class="footer__contacts__end">
                   <p>© 2021 Hibeyo. All rights reserved.</p>
@@ -578,34 +581,41 @@
       </footer>
    </div>
 
-   <div class="modal dis_flex" id="modal__box" >
+   <div class="modal " id="modal__box">
       <div class="modal__overlay" id="modal__overlay__box" onclick="myModal()">
 
       </div>
       <div class="modal__body">
          <!-- Sig in -->
-          <div class="auth-form tabcontent" id="Sigin" style="display: none;">
+         <div class="auth-form tabcontent" id="Sigin" style="display: none;">
             <div class="auth-form__container">
                <div class="auth-form__header dis_flex">
                   <h3 class="auth-form__heading">Đăng ký</h3>
-                  <button class="auth-form__btn tablinks" onclick="openCity(event, 'Login')"s>Đăng nhập</button>
+                  <button class="auth-form__btn tablinks" onclick="openCity(event, 'Login')" s>Đăng nhập</button>
                </div>
-               
-               <div class="auth-form__form">
-                  <div class="auth-form__gr">
-                     <input type="text" class="auth-form__input" placeholder="Email của bạn">
+               <form action="./php/sigin.php" name="myForm" method="POST">
+                  <div class="auth-form__form">
+                     <div class="auth-form__gr">
+                        <input type="text" name="fullname" class="auth-form__input" placeholder="Họ và tên">
+                     </div>
+                     <div class="auth-form__gr">
+                        <input type="text" name="username" class="auth-form__input" placeholder="Tên đăng nhập">
+                     </div>
+                     <div class="auth-form__gr">
+                        <input type="password" name="password" class="auth-form__input" placeholder="Mật khẩu của bạn">
+                     </div>
+                     <div class="auth-form__gr">
+                        <input type="text" name="phone" class="auth-form__input" placeholder="Số điện thoại" onkeyup="validateForm()">
+                     </div>
+                     <div class="auth-form__gr">
+                        <input type="text" name="address" class="auth-form__input" placeholder="Địa chỉ">
+                     </div>
                   </div>
-                  <div class="auth-form__gr">
-                     <input type="password" class="auth-form__input" placeholder="Mật khẩu của bạn">
+                  <div class="auth-form__control">
+                     <button type="button" class="bnt bnt-back bnt--back" onclick="btnBack()">TRỞ LẠI</button>
+                     <button type="submit" class="bnt bnt--primary" name="bnt-sig">ĐĂNG KÝ</button>
                   </div>
-                  <div class="auth-form__gr">
-                     <input type="password" class="auth-form__input" placeholder="Nhập lại mật khẩu">
-                  </div>
-               </div>
-               <div class="auth-form__control">
-                  <button type="button" class="bnt bnt-back bnt--back" onclick="btnBack()">TRỞ LẠI</button>
-                  <button type="button" class="bnt bnt--primary">ĐĂNG KÝ</button>
-               </div>
+               </form>
             </div>
             <div class="auth-form__socials">
                <a href="" class="bnt bnt--with-icon fb">
@@ -617,24 +627,25 @@
                   <span class="socials--title">Kết nối với Google</span>
                </a>
             </div>
-         </div> 
+         </div>
 
          <!-- Log in -->
          <div class="auth-form tabcontent" id="Login" style="display: none;">
             <div class="auth-form__container">
                <div class="auth-form__header dis_flex">
                   <h3 class="auth-form__heading">Đăng nhập</h3>
-                  <button class="auth-form__btn tablinks" onclick="openCity(event, 'Sigin')" >Đăng ký</button>
+                  <button class="auth-form__btn tablinks" onclick="openCity(event, 'Sigin')">Đăng ký</button>
                </div>
-               
-               <div class="auth-form__form">
-                  <div class="auth-form__gr">
-                     <input type="text" class="auth-form__input" placeholder="Email của bạn">
+               <form action="login.php">
+                  <div class="auth-form__form">
+                     <div class="auth-form__gr">
+                        <input type="text" class="auth-form__input" placeholder="Email của bạn">
+                     </div>
+                     <div class="auth-form__gr">
+                        <input type="password" class="auth-form__input" placeholder="Mật khẩu của bạn">
+                     </div>
                   </div>
-                  <div class="auth-form__gr">
-                     <input type="password" class="auth-form__input" placeholder="Mật khẩu của bạn">
-                  </div>
-               </div>
+               </form>
 
                <div class="auth-form__aside">
                   <div class="auth-form__help">
@@ -662,4 +673,5 @@
       </div>
    </div>
 </body>
+
 </html>
