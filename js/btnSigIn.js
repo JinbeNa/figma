@@ -3,21 +3,25 @@ function dropDown() {
 }
 
 function myFunction() {
+  document.querySelector(".header").classList.toggle("header__off");
   document.getElementById("modal__box").style.display = "flex";
+  document.querySelector("body").classList.toggle("body__hidden");
   document.getElementById("Sigin").style.display = "none";
   document.getElementById("Login").style.display = "block";
-  document.querySelector(".header").classList.toggle("header__off");
-  document.querySelector("body").classList.toggle("body__hidden");
 } 
 
 function myModal() {
   document.getElementById("modal__box").style.display = "none";
+  document.querySelector("body").classList.toggle("body__hidden");
+  document.querySelector(".header").classList.toggle("header__off");
 } 
 
 function mySigin() {
   document.getElementById("modal__box").style.display = "flex";
   document.getElementById("Login").style.display = "none";
   document.getElementById("Sigin").style.display = "block";
+  document.querySelector("body").classList.toggle("body__hidden");
+  document.querySelector(".header").classList.toggle("header__off");
 } 
 
 function btnBack() {
@@ -36,4 +40,14 @@ function openCity(evt, cityName) {
   }
   document.getElementById(cityName).style.display = "block";
   evt.currentTarget.className += " active";
+}
+
+function validateForm(){
+
+  var z = document.forms["myForm"]["num"].value;
+
+  if(!/^[0-9]+$/.test(z)){
+    alert("Please only enter numeric characters only for your Age! (Allowed input:0-9)")
+  }
+
 }
