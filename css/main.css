@@ -494,7 +494,7 @@
 }
 /* Footer */
 .footer__box{
-    background: url(/img/background.png);
+    background: url();
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-position: 50%;
